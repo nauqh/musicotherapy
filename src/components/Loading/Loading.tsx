@@ -33,7 +33,7 @@ const Loading: React.FC = () => {
 					marginTop: "5rem",
 				}}
 			>
-				&gt; Initializating large language model . . .
+				&gt; Initializing large language model . . .
 			</motion.h1>
 			<motion.h1
 				initial={{ opacity: 0 }}
@@ -45,13 +45,12 @@ const Loading: React.FC = () => {
 					marginTop: "1rem",
 				}}
 			>
-				&gt; Training on 79,032 indicators of objectively good music . .
-				.
+				&gt; Training on 128,000 tokens of objectively good music . . .
 			</motion.h1>
 			<motion.h1
 				initial={{ opacity: 0 }}
 				animate={{ opacity: 1 }}
-				transition={{ duration: 1, delay: 7 }}
+				transition={{ duration: 1, delay: 10 }}
 				style={{
 					fontSize: "1rem",
 					fontWeight: 400,
@@ -64,7 +63,7 @@ const Loading: React.FC = () => {
 				initial={{ opacity: 0 }}
 				animate={{ opacity: 1 }}
 				exit={{ opacity: 0 }}
-				transition={{ duration: 1, delay: 10 }}
+				transition={{ duration: 1, delay: 15 }}
 				className="loading"
 				style={{
 					fontWeight: 400,
