@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { motion } from "framer-motion";
 
 import TextInput from "../components/TextInput/TextInput";
 import Features from "../assets/data/features.json";
@@ -45,7 +46,11 @@ const Input = () => {
 	};
 
 	return (
-		<>
+		<motion.div
+			initial={{ opacity: 0 }}
+			animate={{ opacity: 1 }}
+			transition={{ duration: 1, delay: 1 }}
+		>
 			<section className="container" id="filter">
 				<h1
 					style={{
@@ -120,7 +125,7 @@ const Input = () => {
 					Give me new songs
 				</div>
 			</footer>
-		</>
+		</motion.div>
 	);
 };
 

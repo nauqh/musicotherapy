@@ -45,7 +45,7 @@ const Loading: React.FC = () => {
 					marginTop: "1rem",
 				}}
 			>
-				&gt; Training on 128,000 tokens of objectively good music . . .
+				&gt; Applying gpt-4 turbo with data up to Apr 2023 . . .
 			</motion.h1>
 			<motion.h1
 				initial={{ opacity: 0 }}
@@ -57,13 +57,25 @@ const Loading: React.FC = () => {
 					marginTop: "1rem",
 				}}
 			>
-				&gt; Finalizing . . .
+				&gt; Training on 128,000 tokens of objectively good music . . .
+			</motion.h1>
+			<motion.h1
+				initial={{ opacity: 0 }}
+				animate={{ opacity: 1 }}
+				transition={{ duration: 1, delay: 15 }}
+				style={{
+					fontSize: "1rem",
+					fontWeight: 400,
+					marginTop: "1rem",
+				}}
+			>
+				&gt; Finalizing results . . .
 			</motion.h1>
 			<motion.h1
 				initial={{ opacity: 0 }}
 				animate={{ opacity: 1 }}
 				exit={{ opacity: 0 }}
-				transition={{ duration: 1, delay: 15 }}
+				transition={{ duration: 1, delay: 20 }}
 				className="loading"
 				style={{
 					fontWeight: 400,
