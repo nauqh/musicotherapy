@@ -19,8 +19,8 @@ const Result = () => {
 	useEffect(() => {
 		// Loading completion after 5 seconds
 		const loadingTimer = setTimeout(() => {
-			setLoadingComplete(true);
-		}, 1000);
+			setLoadingComplete(false);
+		}, 10000);
 
 		// Cleanup the timer to avoid memory leaks
 		return () => clearTimeout(loadingTimer);
