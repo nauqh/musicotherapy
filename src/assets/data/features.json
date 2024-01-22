@@ -1,0 +1,62 @@
+{
+    "pop": {
+        "Danceability": 75,
+        "Energy": 80,
+        "Key": 5,
+        "Loudness": -6.5,
+        "Mode": 1,
+        "Speechiness": 10,
+        "Acousticness": 20,
+        "Instrumentalness": 5,
+        "Liveness": 20,
+        "Valence": 70,
+        "Tempo": 120.5,
+        "Duration_ms": 240000,
+        "Time_signature": 4
+    },
+    "rock": {
+        "Danceability": 60,
+        "Energy": 85,
+        "Key": 7,
+        "Loudness": -5.0,
+        "Mode": 1,
+        "Speechiness": 5,
+        "Acousticness": 30,
+        "Instrumentalness": 70,
+        "Liveness": 15,
+        "Valence": 60,
+        "Tempo": 130.0,
+        "Duration_ms": 260000,
+        "Time_signature": 4
+    },
+    "edm": {
+        "Danceability": 90,
+        "Energy": 95,
+        "Key": 2,
+        "Loudness": -4.0,
+        "Mode": 1,
+        "Speechiness": 5,
+        "Acousticness": 10,
+        "Instrumentalness": 90,
+        "Liveness": 10,
+        "Valence": 80,
+        "Tempo": 128.0,
+        "Duration_ms": 210000,
+        "Time_signature": 4
+    },
+    "rnb": {
+        "Danceability": 80,
+        "Energy": 70,
+        "Key": 3,
+        "Loudness": -7.0,
+        "Mode": 0,
+        "Speechiness": 20,
+        "Acousticness": 40,
+        "Instrumentalness": 20,
+        "Liveness": 30,
+        "Valence": 50,
+        "Tempo": 95.0,
+        "Duration_ms": 280000,
+        "Time_signature": 4
+    }
+}

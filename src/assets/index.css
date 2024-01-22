@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap");
+
+:root {
+	--primary-color: #fafafa;
+	--secondary-color: #9f7e69;
+	--text-color: #161513;
+}
+
+html {
+	overflow-y: scroll;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: var(--text-color);
+	background-color: var(--primary-color);
+	font-family: "Space Grotesk", sans-serif;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 0.5rem;
+}
+
+h1 {
+	font-weight: 500;
+}
+
+.container {
+	max-width: 1024px;
+	justify-content: center;
+	display: grid;
+	place-content: center;
+	margin-bottom: 2rem;
+}
+
+.container-flex {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	align-items: center;
+	padding: 1rem;
+}
+
+.button {
+	display: inline-block;
+	background-color: var(--text-color);
+	color: #fafafa;
+	padding: 0.5rem 1rem;
+	border-radius: 0.75rem;
+	font-weight: 500;
+}
+
+.button-alter {
+	display: inline-block;
+	background-color: #fafafa;
+	color: var(--text-color);
+	border: solid 1px var(--text-color);
+	padding: 0.5rem 1rem;
+	border-radius: 0.75rem;
+}
+
+.button:hover,
+.button-alter:hover {
+	background-color: var(--secondary-color);
+	border-color: var(--secondary-color);
+	color: #fff;
+	transition: 0.2s;
+	cursor: pointer;
+}
+
+@media screen and (min-width: 500px) {
+	.container-flex {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		padding: 1rem;
+	}
+}
+
+@media screen and (min-width: 1500px) {
+	body {
+		zoom: 1.5;
+	}
+}

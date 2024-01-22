@@ -1,0 +1,30 @@
+{
+    "genre": "Korean Indie Pop",
+    "mood": "eclectic - soothing - vibrant",
+    "color": "#FF9E80",
+    "characteristics": [
+        "Your music taste leans a bit towards Korean Indie Pop, which is known for its diverse mix of styles and influences. This genre often features a blend of traditional Korean musical elements with modern pop sensibilities, creating a sound that's both familiar and fresh.",
+        "Korean Indie Pop is characterized by its use of electronic beats, smooth vocals, and catchy hooks. Artists in this genre are not afraid to experiment with different sounds and textures, often resulting in music that is highly expressive and emotionally resonant."
+    ],
+    "artists": [
+        {
+            "name": "Zion.T",
+            "img": "https://i.scdn.co/image/ab676161000051742399cb22b73eff59dcbc26d5",
+            "id": "5HenzRvMtSrgtvU16XAoby",
+            "content": "is known for his smooth vocal style and unique blend of R&B and hip-hop influences, all while maintaining the charm of Korean Indie Pop. His music typically features minimalist arrangements that allow his soulful voice to take center stage."
+        },
+        {
+            "name": "10cm",
+            "img": "https://i.scdn.co/image/ab67616100005174bf714b92064da5fd508c7806",
+            "id": "6zn0ihyAApAYV51zpXxdEp",
+            "content": "is a duo that has captivated fans with their acoustic sound and heartfelt lyrics. Their music often explores themes of love and everyday life, delivered through melodic guitar lines and emotive vocals, making them a standout act in the Korean Indie Pop scene."
+        }
+    ],
+    "tracks": [
+        "79cmYpry5DEPtK4KbmAUqj",
+        "1ZnSDGtDDta9qFNGEVoZbo",
+        "4YJlv9lK1EsszlUZ4ekj7I",
+        "5JpftUHeUzx3zWE6rZtki5",
+        "0BZj6AmUyA39EDPmfoEif4"
+    ]
+}
