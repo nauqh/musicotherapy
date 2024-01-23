@@ -8,6 +8,7 @@ import Frame from "../components/Frame/Frame";
 import Artist from "../components/Artist/Artist";
 import Sample from "../assets/data/sample.json";
 import Loading from "../components/Loading/Loading";
+import Playlist from "../components/Playlist/Playlist";
 
 const Result = () => {
 	// const location = useLocation();
@@ -19,8 +20,8 @@ const Result = () => {
 	useEffect(() => {
 		// Loading completion after 5 seconds
 		const loadingTimer = setTimeout(() => {
-			setLoadingComplete(false);
-		}, 10000);
+			setLoadingComplete(true);
+		}, 1000);
 
 		// Cleanup the timer to avoid memory leaks
 		return () => clearTimeout(loadingTimer);
@@ -127,6 +128,8 @@ const Result = () => {
 								</h1>
 								<Frame trackIds={tracks} />
 							</section>
+
+							<Playlist />
 
 							<footer
 								className="container"

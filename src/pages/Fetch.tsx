@@ -7,7 +7,7 @@ import Typewriter from "../components/Typewriter/Typewriter";
 import Frame from "../components/Frame/Frame";
 import Artist from "../components/Artist/Artist";
 
-const BASE: string = "https://llm-kehq.onrender.com/";
+const BASE: string = "http://127.0.0.1:8000/";
 
 interface Artist {
 	name: string;
