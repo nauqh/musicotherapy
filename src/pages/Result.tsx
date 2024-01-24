@@ -25,7 +25,7 @@ const BASE: string = "http://127.0.0.1:8000/";
 const Result = () => {
 	// const location = useLocation();
 	const { color, mood, characteristics, artists, tracks } = Sample;
-	const [loadingComplete, setLoadingComplete] = useState(false);
+	const [loadingComplete, setLoadingComplete] = useState(true);
 	const [firstWriterComplete, setFirstWriterComplete] = useState(false);
 	const [secondWriterComplete, setSecondWriterComplete] = useState(false);
 	const [playlist, setPlaylist] = useState();
@@ -72,7 +72,7 @@ const Result = () => {
 								fontWeight: 700,
 								textAlign: "center",
 								marginBottom: "2rem",
-								marginTop: "5rem",
+								marginTop: "2rem",
 								color: color,
 							}}
 						>
@@ -118,7 +118,6 @@ const Result = () => {
 								<h1
 									style={{
 										fontSize: "1.5rem",
-										padding: "0.5rem",
 									}}
 								>
 									Famous artists represent your music taste
@@ -139,8 +138,7 @@ const Result = () => {
 								<h1
 									style={{
 										fontSize: "1.5rem",
-										marginBottom: "2rem",
-										padding: "0.5rem",
+										marginBottom: "1rem",
 									}}
 								>
 									Here are the songs that are tailored for you
@@ -151,8 +149,7 @@ const Result = () => {
 								<h1
 									style={{
 										fontSize: "1.5rem",
-										marginBottom: "2rem",
-										padding: "0.5rem",
+										marginBottom: "1rem",
 									}}
 								>
 									This playlist might be your cup of tea

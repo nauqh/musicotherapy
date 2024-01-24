@@ -33,7 +33,7 @@ const Loading: React.FC = () => {
 					marginTop: "5rem",
 				}}
 			>
-				&gt; Initializing large language model . . .
+				&gt; Initializing large language model. . .
 			</motion.h1>
 			<motion.h1
 				initial={{ opacity: 0 }}
@@ -45,7 +45,7 @@ const Loading: React.FC = () => {
 					marginTop: "1rem",
 				}}
 			>
-				&gt; Applying gpt-4 turbo with data up to Apr 2023 . . .
+				&gt; Applying gpt-4 turbo with data up to Apr 2023. . .
 			</motion.h1>
 			<motion.h1
 				initial={{ opacity: 0 }}
@@ -57,7 +57,7 @@ const Loading: React.FC = () => {
 					marginTop: "1rem",
 				}}
 			>
-				&gt; Training on 128,000 tokens of objectively good music . . .
+				&gt; Training on 128,000 tokens of objectively good music. . .
 			</motion.h1>
 			<motion.h1
 				initial={{ opacity: 0 }}

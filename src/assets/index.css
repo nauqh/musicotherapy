@@ -39,6 +39,10 @@ h1 {
 	font-weight: 600;
 }
 
+p {
+	line-height: 1.2rem;
+}
+
 .container {
 	max-width: 1024px;
 	justify-content: center;
@@ -69,8 +73,8 @@ h1 {
 	background-color: #fafafa;
 	color: var(--text-color);
 	border: solid 1px var(--text-color);
-	padding: 0.5rem 1rem;
 	border-radius: 0.75rem;
+	padding: 0.5rem 1rem;
 }
 
 .button:hover,
