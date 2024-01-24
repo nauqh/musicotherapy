@@ -1,10 +1,10 @@
 import "./Playlist.css";
 
-const Playlist = () => {
+const Playlist = (playlist: any) => {
 	return (
 		<div className="playlist__container">
 			<iframe
-				src="https://open.spotify.com/embed/playlist/0d94FaVJFNNspToUDtZptD?utm_source=generator"
+				src={`https://open.spotify.com/embed/playlist/${playlist.playlist.id}?utm_source=generator`}
 				frameBorder="0"
 				allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
 				loading="lazy"
@@ -12,18 +12,21 @@ const Playlist = () => {
 			<div className="playlist__description">
 				<div className="playlist__description-head">
 					<h5>PUBLIC PLAYLIST</h5>
-					<h1>Vietnamese R&B/Chill Indie</h1>
+					<h1>{playlist.playlist.name}</h1>
 					<p>
-						Cover: unidentified artist | Cải lương? What&#x27;s
-						that? | nhạc pop&#x2F;R&amp;B Việt Nam nhẹ nhàng
+						{playlist.playlist.description
+							? playlist.playlist.description
+							: `Yet to have description`}
 					</p>
 				</div>
 				<div className="playlist__description-stats">
 					<h3>
-						<span>Owner</span>: Alyssa
+						<span>Owner</span>:{" "}
+						{playlist.playlist.owner.display_name}
 					</h3>
 					<h3>
-						<span>Content</span>: 220 tracks
+						<span>Content</span>: {playlist.playlist.tracks.total}{" "}
+						tracks
 					</h3>
 					<h3>
 						<span>Duration</span>: 12h

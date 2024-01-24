@@ -29,7 +29,7 @@ const Home = () => {
 			<section className="home">
 				<div className="home__container container">
 					<div className="home__data">
-						<h1 className="home__title">Looking for new music?</h1>
+						<h1 className="home__title">How sick is your music?</h1>
 						<p className="home__description">
 							Our sophisticated AI will recommend you new songs!
 							<br />
@@ -77,8 +77,10 @@ const Home = () => {
 
 				<footer className="home__footer">
 					A project by{" "}
-					<span style={{ fontSize: "1.5rem", fontWeight: 700 }}>
-						Team 1
+					<span style={{ fontSize: "1.5rem", fontWeight: 600 }}>
+						<a href="https://nauqh.github.io" target="_blank">
+							nauqh
+						</a>
 					</span>
 				</footer>
 			</section>

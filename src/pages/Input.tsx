@@ -46,13 +46,12 @@ const Input = () => {
 	};
 
 	return (
-		<>
-			<motion.section
-				className="container"
-				initial={{ opacity: 0 }}
-				animate={{ opacity: 1 }}
-				transition={{ duration: 1, delay: 1 }}
-			>
+		<motion.div
+			initial={{ opacity: 0 }}
+			animate={{ opacity: 1 }}
+			transition={{ duration: 1, delay: 1 }}
+		>
+			<section className="container">
 				<h1
 					style={{
 						fontSize: "1rem",
@@ -63,14 +62,9 @@ const Input = () => {
 					Pick a genre you like, or create your own custom preference
 				</h1>
 				<WorkFilter onFilterChange={handleFilterChange} />
-			</motion.section>
+			</section>
 
-			<motion.section
-				className="container"
-				initial={{ opacity: 0 }}
-				animate={{ opacity: 1 }}
-				transition={{ duration: 1, delay: 2 }}
-			>
+			<section className="container">
 				<Slider
 					name="Danceability"
 					description="Danceability describes how suitable a track is for dancing based on a combination of musical elements"
@@ -124,14 +118,14 @@ const Input = () => {
 						setNotes(text);
 					}}
 				/>
-			</motion.section>
+			</section>
 
 			<footer className="container">
 				<div className="button-alter" onClick={handleButtonClick}>
 					Give me new songs
 				</div>
 			</footer>
-		</>
+		</motion.div>
 	);
 };
 

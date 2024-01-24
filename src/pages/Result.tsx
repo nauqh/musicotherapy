@@ -10,18 +10,31 @@ import Sample from "../assets/data/sample.json";
 import Loading from "../components/Loading/Loading";
 import Playlist from "../components/Playlist/Playlist";
 
+const getBody = (data: any) => {
+	return {
+		method: "POST",
+		headers: {
+			"Content-Type": "application/json",
+		},
+		body: JSON.stringify(data),
+	};
+};
+
+const BASE: string = "http://127.0.0.1:8000/";
+
 const Result = () => {
 	// const location = useLocation();
 	const { color, mood, characteristics, artists, tracks } = Sample;
 	const [loadingComplete, setLoadingComplete] = useState(false);
 	const [firstWriterComplete, setFirstWriterComplete] = useState(false);
 	const [secondWriterComplete, setSecondWriterComplete] = useState(false);
+	const [playlist, setPlaylist] = useState();
 
 	useEffect(() => {
 		// Loading completion after 5 seconds
 		const loadingTimer = setTimeout(() => {
 			setLoadingComplete(true);
-		}, 1000);
+		}, 28000);
 
 		// Cleanup the timer to avoid memory leaks
 		return () => clearTimeout(loadingTimer);
@@ -41,6 +54,12 @@ const Result = () => {
 		}
 	}, [loadingComplete]);
 
+	useEffect(() => {
+		fetch(BASE + "playlist", getBody({ keyword: "vintage pop" }))
+			.then((response) => response.json())
+			.then((playlist) => setPlaylist(playlist));
+	}, []);
+
 	return (
 		<>
 			{loadingComplete ? (
@@ -49,11 +68,11 @@ const Result = () => {
 						<h1
 							id="title"
 							style={{
-								fontSize: "2rem",
+								fontSize: "2.5rem",
 								fontWeight: 700,
 								textAlign: "center",
 								marginBottom: "2rem",
-								marginTop: "2rem",
+								marginTop: "5rem",
 								color: color,
 							}}
 						>
@@ -71,7 +90,7 @@ const Result = () => {
 					<section className="container" id="description">
 						<Typewriter
 							text={characteristics[0]}
-							delay={30}
+							delay={10}
 							onComplete={() => {
 								setFirstWriterComplete(true);
 							}}
@@ -79,7 +98,7 @@ const Result = () => {
 						{firstWriterComplete && (
 							<Typewriter
 								text={characteristics[1]}
-								delay={30}
+								delay={10}
 								onComplete={() => {
 									setSecondWriterComplete(true);
 								}}
@@ -128,25 +147,18 @@ const Result = () => {
 								</h1>
 								<Frame trackIds={tracks} />
 							</section>
-
-							<Playlist />
-
-							<footer
-								className="container"
-								style={{ marginBottom: "2rem" }}
-							>
-								<a
-									className="button-alter"
-									// href={
-									// 	location.state.link !== ""
-									// 		? location.state.link
-									// 		: "https://open.spotify.com/playlist/37i9dQZF1DWUa8ZRTfalHk?si=62c10509dbca4222"
-									// }
-									href="https://open.spotify.com/playlist/37i9dQZF1DWUa8ZRTfalHk?si=62c10509dbca4222"
+							<section className="container">
+								<h1
+									style={{
+										fontSize: "1.5rem",
+										marginBottom: "2rem",
+										padding: "0.5rem",
+									}}
 								>
-									Here is your playlist
-								</a>
-							</footer>
+									This playlist might be your cup of tea
+								</h1>
+								<Playlist playlist={playlist} />
+							</section>
 						</motion.div>
 					)}
 				</>

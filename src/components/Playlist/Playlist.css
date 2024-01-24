@@ -1,12 +1,12 @@
 .playlist__container {
 	display: flex;
 	column-gap: 2rem;
-	place-content: center;
+	margin-bottom: 10rem;
 }
 
 .playlist__container iframe {
 	border-radius: 12px;
-	width: 360px;
+	width: 40%;
 	height: 450px;
 }
 
@@ -29,6 +29,7 @@
 .playlist__description-head h1 {
 	font-size: 2rem;
 	color: #ff9e80;
+	font-weight: 700;
 }
 
 .playlist__description-head p {
@@ -55,6 +56,6 @@
 
 @media screen and (min-width: 1000px) {
 	.playlist__container {
-		padding-right: 10rem;
+		width: 980px;
 	}
 }

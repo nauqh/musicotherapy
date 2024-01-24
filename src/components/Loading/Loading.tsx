@@ -81,8 +81,8 @@ const Loading: React.FC = () => {
 					fontWeight: 400,
 				}}
 			>
-				Based on your listening habits, we can tell your music
-				characteristics are
+				Based on your listening habits, we can tell your kind of
+				sickness are
 				<div className="loading__dots">
 					<span className="loading__dot"></span>
 					<span className="loading__dot"></span>
