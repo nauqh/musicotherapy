@@ -54,11 +54,11 @@ const Result = () => {
 		}
 	}, [loadingComplete]);
 
-	// useEffect(() => {
-	// 	fetch(BASE + "playlist", getBody({ keyword: "vintage pop" }))
-	// 		.then((response) => response.json())
-	// 		.then((playlist) => setPlaylist(playlist));
-	// }, []);
+	useEffect(() => {
+		fetch(BASE + "playlist", getBody({ keyword: "vintage pop" }))
+			.then((response) => response.json())
+			.then((playlist) => setPlaylist(playlist));
+	}, []);
 
 	return (
 		<>
@@ -66,13 +66,8 @@ const Result = () => {
 				<>
 					<section className="container">
 						<h1
-							id="title"
+							id="result__title"
 							style={{
-								fontSize: "2.5rem",
-								fontWeight: 700,
-								textAlign: "center",
-								marginBottom: "2rem",
-								marginTop: "2rem",
 								color: color,
 							}}
 						>

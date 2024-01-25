@@ -6,7 +6,7 @@
 
 .playlist__container iframe {
 	border-radius: 12px;
-	width: 40%;
+	width: 60%;
 	height: 450px;
 }
 
@@ -54,8 +54,33 @@
 	color: #ff9e80;
 }
 
+@media screen and (max-width: 600px) {
+	.playlist__container {
+		flex-direction: column;
+	}
+
+	.playlist__container iframe {
+		align-self: center;
+		width: 100%;
+		padding: 1rem;
+	}
+
+	.playlist__description {
+		padding: 1rem;
+	}
+
+	.playlist__description-head {
+		row-gap: 0.5rem;
+		margin-bottom: 2rem;
+	}
+}
+
 @media screen and (min-width: 1000px) {
 	.playlist__container {
-		width: 980px;
+		width: 970px;
+	}
+
+	.playlist__container iframe {
+		width: 40%;
 	}
 }
