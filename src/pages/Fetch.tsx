@@ -6,6 +6,7 @@ import Loading from "../components/Loading/Loading";
 import Typewriter from "../components/Typewriter/Typewriter";
 import Frame from "../components/Frame/Frame";
 import Artist from "../components/Artist/Artist";
+import Playlist from "../components/Playlist/Playlist";
 
 const BASE: string = "http://127.0.0.1:8000/";
 
@@ -35,50 +36,50 @@ const getBody = (data: any) => {
 	};
 };
 
+const fetchJson = async (url: string, data: any) => {
+	const response = await fetch(url, getBody(data));
+	return response.json();
+};
+
 const Fetch = () => {
 	const location = useLocation();
 	const [data, setData] = useState<Data>();
+	const [playlist, setPlaylist] = useState();
+
 	const [firstWriterComplete, setFirstWriterComplete] = useState(false);
 	const [secondWriterComplete, setSecondWriterComplete] = useState(false);
 
 	useEffect(() => {
-		fetch(
-			BASE + "analysis",
-			getBody({ description: location.state.description })
-		)
-			.then((response) => response.json())
-			.then((analysis) => {
-				// NOTE: Get artist info
-				fetch(BASE + "artist", getBody({ names: analysis["artists"] }))
-					.then((response) => response.json())
-					.then((artists) => {
-						analysis["artists"] = artists;
-						analysis["artists"].forEach(
-							(artist: any, index: any) => {
-								artist["content"] = analysis.content[index];
-							}
-						);
-						delete analysis["content"];
-
-						// NOTE: Get song recommendation
-						fetch(
-							BASE + "recommendation",
-							getBody({
-								ids: analysis["artists"].map(
-									(artist: any) => artist.id
-								),
-							})
-						)
-							.then((response) => response.json())
-							.then((songs) => {
-								analysis["tracks"] = songs.map(
-									(song: any) => song.id
-								);
-								setData(analysis);
-							});
-					});
+		const fetchData = async () => {
+			const playlist = await fetchJson(BASE + "playlist", {
+				keyword: location.state.description,
 			});
-	}, []);
+			setPlaylist(playlist);
+
+			const analysis = await fetchJson(BASE + "analysis", {
+				description: location.state.description,
+			});
+
+			const artists = await fetchJson(BASE + "artist", {
+				names: analysis.artists,
+			});
+
+			analysis.artists = artists.map((artist: any, index: any) => ({
+				...artist,
+				content: analysis.content[index],
+			}));
+			delete analysis.content;
+
+			const songs = await fetchJson(BASE + "recommendation", {
+				ids: analysis.artists.map((artist: any) => artist.id),
+			});
+
+			analysis.tracks = songs.map((song: any) => song.id);
+			setData(analysis);
+		};
+
+		fetchData();
+	}, [location.state.description]);
 
 	return (
 		<>
@@ -90,7 +91,7 @@ const Fetch = () => {
 							animate={{ opacity: 1 }}
 							transition={{ duration: 1, delay: 0.5 }}
 							style={{
-								fontSize: "2rem",
+								fontSize: "2.5rem",
 								fontWeight: 700,
 								textAlign: "center",
 								marginBottom: "2rem",
@@ -144,7 +145,6 @@ const Fetch = () => {
 								<h1
 									style={{
 										fontSize: "1.5rem",
-										padding: "0.5rem",
 									}}
 								>
 									Famous artists represent your music taste
@@ -165,8 +165,7 @@ const Fetch = () => {
 								<h1
 									style={{
 										fontSize: "1.5rem",
-										marginBottom: "2rem",
-										padding: "0.5rem",
+										marginBottom: "1rem",
 									}}
 								>
 									Here are the songs that are tailored for you
@@ -174,17 +173,17 @@ const Fetch = () => {
 								<Frame trackIds={data.tracks} />
 							</section>
 
-							<footer
-								className="container"
-								style={{ marginBottom: "2rem" }}
-							>
-								<a
-									className="button-alter"
-									href="https://open.spotify.com/playlist/37i9dQZF1DWUa8ZRTfalHk?si=62c10509dbca4222"
+							<section className="container">
+								<h1
+									style={{
+										fontSize: "1.5rem",
+										marginBottom: "1rem",
+									}}
 								>
-									Here is your playlist
-								</a>
-							</footer>
+									This playlist might be your cup of tea
+								</h1>
+								<Playlist playlist={playlist} />
+							</section>
 						</motion.div>
 					)}
 				</>

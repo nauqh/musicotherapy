@@ -54,11 +54,11 @@ const Result = () => {
 		}
 	}, [loadingComplete]);
 
-	useEffect(() => {
-		fetch(BASE + "playlist", getBody({ keyword: "vintage pop" }))
-			.then((response) => response.json())
-			.then((playlist) => setPlaylist(playlist));
-	}, []);
+	// useEffect(() => {
+	// 	fetch(BASE + "playlist", getBody({ keyword: "vintage pop" }))
+	// 		.then((response) => response.json())
+	// 		.then((playlist) => setPlaylist(playlist));
+	// }, []);
 
 	return (
 		<>
