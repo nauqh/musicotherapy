@@ -77,7 +77,12 @@ const Home = () => {
 
 				<footer className="home__footer">
 					A project by{" "}
-					<span style={{ fontSize: "1.5rem", fontWeight: 600 }}>
+					<span
+						style={{
+							fontSize: "1.5rem",
+							fontWeight: 500,
+						}}
+					>
 						<a href="https://nauqh.github.io" target="_blank">
 							nauqh
 						</a>
