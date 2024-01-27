@@ -32,7 +32,6 @@ const Home = () => {
 						<h1 className="home__title">How sick is your music?</h1>
 						<p className="home__description">
 							Our sophisticated AI will recommend you new songs!
-							<br />
 							And judge your awful taste in music.
 						</p>
 
@@ -51,7 +50,7 @@ const Home = () => {
 
 						<div className="home__input">
 							<p className="home__description">
-								Or you can upload your Spotify playlist below
+								Or upload your Spotify playlist below
 							</p>
 							<div className="input-container">
 								<form action="">

@@ -1,7 +1,7 @@
 .playlist__container {
 	display: flex;
 	column-gap: 2rem;
-	margin-bottom: 10rem;
+	margin-bottom: 5rem;
 }
 
 .playlist__container iframe {

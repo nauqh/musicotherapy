@@ -7,7 +7,6 @@
 .home__container {
 	display: grid;
 	align-content: center;
-	row-gap: 2.5rem;
 }
 
 .home__data {
@@ -98,7 +97,7 @@
 	}
 
 	.home__title {
-		font-size: 1.8rem;
+		font-size: 2.8rem;
 	}
 
 	.home__data {
@@ -122,19 +121,23 @@
 	}
 }
 
+@media screen and (min-width: 768px) {
+	.home__description {
+		padding: 0 6rem;
+	}
+}
+
 @media screen and (min-width: 1024px) {
 	.home {
 		padding-top: 2rem;
 	}
 
 	.home__container {
-		grid-template-columns: repeat(2, 1fr);
+		grid-template-columns: 1.4fr 1fr;
 		align-items: center;
-		column-gap: 2rem;
 	}
 
 	.home__title {
-		font-size: 2.5rem;
 		margin: 1rem 0;
 	}
 
@@ -146,6 +149,8 @@
 
 	.home__description {
 		font-size: 1rem;
+		max-width: 400px;
+		padding: 0;
 	}
 
 	.home__input {
