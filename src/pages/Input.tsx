@@ -33,7 +33,7 @@ const Input = () => {
 		);
 		console.log(features);
 		console.log(notes);
-		navigate("/fetch", {
+		navigate("/test", {
 			state: { description: notes ? notes : "soft korean pop indie" },
 		});
 	};

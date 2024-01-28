@@ -25,6 +25,43 @@
         "1ZnSDGtDDta9qFNGEVoZbo",
         "4YJlv9lK1EsszlUZ4ekj7I",
         "5JpftUHeUzx3zWE6rZtki5",
-        "0BZj6AmUyA39EDPmfoEif4"
-    ]
+        "0BZj6AmUyA39EDPmfoEif4",
+        "1ZnSDGtDDta9qFNGEVoZbo"
+    ],
+    "playlist": {
+        "collaborative": false,
+        "description": "With Cat Dealers, KVSH, Dubdogz and more",
+        "external_urls": {
+            "spotify": "https://open.spotify.com/playlist/37i9dQZF1E4mJh1ditH5Lc"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1E4mJh1ditH5Lc",
+        "id": "37i9dQZF1E4mJh1ditH5Lc",
+        "images": [
+            {
+                "height": null,
+                "url": "https://seeded-session-images.scdn.co/v2/img/122/secondary/artist/28uJnu5EsrGml2tBd7y8ts/en",
+                "width": null
+            }
+        ],
+        "name": "Vintage Culture Radio",
+        "owner": {
+            "display_name": "Spotify",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/spotify"
+            },
+            "href": "https://api.spotify.com/v1/users/spotify",
+            "id": "spotify",
+            "type": "user",
+            "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTcwNjQxMDg4NiwwMDAwMDAwMDgzYzM4OTQxODBiNWM2Yjc3MWQ3YTgwMTQxZTdiODVk",
+        "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/37i9dQZF1E4mJh1ditH5Lc/tracks",
+            "total": 50
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1E4mJh1ditH5Lc"
+    }
 }

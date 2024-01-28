@@ -3,6 +3,7 @@ import Home from "./pages/Home";
 import Result from "./pages/Result";
 import Fetch from "./pages/Fetch";
 import Input from "./pages/Input";
+import Fetch2 from "./pages/Fetch copy";
 
 function App() {
 	return (
@@ -14,6 +15,7 @@ function App() {
 					<Route path="/input" element={<Input />} />
 					<Route path="/result" element={<Result />} />
 					<Route path="/fetch" element={<Fetch />} />
+					<Route path="/test" element={<Fetch2 />} />
 				</Routes>
 			</BrowserRouter>
 		</div>
