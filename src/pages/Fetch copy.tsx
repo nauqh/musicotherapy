@@ -12,15 +12,14 @@ import Playlist from "../components/Playlist/Playlist";
 import Sample from "../assets/data/sample.json";
 
 // Style
-import "../assets/Fetch.css";
+// import "../assets/Fetch.css";
 
 const Fetch2 = () => {
-	const [loadingComplete, setLoadingComplete] = useState(false);
+	const [loadingComplete, setLoadingComplete] = useState(true);
 	const { color, mood, characteristics, artists, tracks, playlist } = Sample;
 
 	const [firstWriterComplete, setFirstWriterComplete] = useState(false);
 	const [secondWriterComplete, setSecondWriterComplete] = useState(false);
-
 	useEffect(() => {
 		// Loading completion after 5 seconds
 		const loadingTimer = setTimeout(() => {
@@ -68,7 +67,7 @@ const Fetch2 = () => {
 					>
 						<Typewriter
 							text={characteristics[0]}
-							delay={30}
+							delay={1}
 							onComplete={() => {
 								setFirstWriterComplete(true);
 							}}
@@ -76,7 +75,7 @@ const Fetch2 = () => {
 						{firstWriterComplete && (
 							<Typewriter
 								text={characteristics[1]}
-								delay={30}
+								delay={1}
 								onComplete={() => {
 									setSecondWriterComplete(true);
 								}}
@@ -117,7 +116,7 @@ const Fetch2 = () => {
 								<h1 className="result__header">
 									This playlist might be your cup of tea
 								</h1>
-								<Playlist playlist={playlist} />
+								<Playlist playlist={playlist} color={color} />
 							</section>
 						</motion.div>
 					)}

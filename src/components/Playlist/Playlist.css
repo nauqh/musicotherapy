@@ -28,7 +28,6 @@
 
 .playlist__description-head h1 {
 	font-size: 2rem;
-	color: #ff9e80;
 	font-weight: 700;
 }
 
@@ -51,7 +50,6 @@
 	padding: 0.2rem;
 	border-radius: 0.2rem;
 	background: #f2f2f2;
-	color: #ff9e80;
 }
 
 @media screen and (max-width: 600px) {

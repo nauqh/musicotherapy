@@ -166,7 +166,10 @@ const Fetch = () => {
 								<h1 className="result__header">
 									This playlist might be your cup of tea
 								</h1>
-								<Playlist playlist={playlist} />
+								<Playlist
+									playlist={playlist}
+									color={data.color}
+								/>
 							</section>
 						</motion.div>
 					)}
