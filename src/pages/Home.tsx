@@ -4,8 +4,7 @@ import ScrollReveal from "scrollreveal";
 import "../assets/Home.css";
 
 const sr = ScrollReveal({
-	distance: "60px",
-	duration: 2500,
+	duration: 3000,
 });
 
 const Home = () => {
@@ -31,8 +30,8 @@ const Home = () => {
 					<div className="home__data">
 						<h1 className="home__title">How sick is your music?</h1>
 						<p className="home__description">
-							Our sophisticated AI will recommend you new songs!
-							And judge your awful taste in music.
+							Our sophisticated AI will diagnose your aweful music
+							taste! And prescribe you some music subscription
 						</p>
 
 						<div className="button-container">
@@ -50,7 +49,7 @@ const Home = () => {
 
 						<div className="home__input">
 							<p className="home__description">
-								Upload your Spotify playlist below
+								Or upload your Spotify playlist below
 							</p>
 							<div className="input-container">
 								<form action="">
@@ -75,15 +74,29 @@ const Home = () => {
 				</div>
 
 				<footer className="home__footer">
-					A project by{" "}
+					<div>
+						A project by{" "}
+						<span
+							style={{
+								fontSize: "2rem",
+								fontWeight: 700,
+							}}
+						>
+							<a href="https://nauqh.github.io" target="_blank">
+								nauqh
+							</a>
+						</span>
+					</div>
 					<span
 						style={{
-							fontSize: "1.5rem",
-							fontWeight: 500,
+							alignSelf: "flex-end",
+							textAlign: "right",
+							width: 200,
 						}}
 					>
-						<a href="https://nauqh.github.io" target="_blank">
-							nauqh
+						Powered by{" "}
+						<a href="https://openai.com/blog/new-embedding-models-and-api-updates">
+							OpenAI GPT-4
 						</a>
 					</span>
 				</footer>
