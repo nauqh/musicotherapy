@@ -8,6 +8,8 @@ import Frame from "../components/Frame/Frame";
 import Artist from "../components/Artist/Artist";
 import Playlist from "../components/Playlist/Playlist";
 
+import "../assets/Fetch.css";
+
 const BASE: string = "http://127.0.0.1:8000/";
 
 interface Artist {
@@ -87,15 +89,11 @@ const Fetch = () => {
 				<>
 					<section className="container">
 						<motion.h1
+							className="result__title"
 							initial={{ opacity: 0 }}
 							animate={{ opacity: 1 }}
 							transition={{ duration: 1, delay: 0.5 }}
 							style={{
-								fontSize: "2.5rem",
-								fontWeight: 700,
-								textAlign: "center",
-								marginBottom: "2rem",
-								marginTop: "2rem",
 								color: data.color,
 							}}
 						>
@@ -142,11 +140,7 @@ const Fetch = () => {
 							transition={{ duration: 1, delay: 1 }}
 						>
 							<section className="container">
-								<h1
-									style={{
-										fontSize: "1.5rem",
-									}}
-								>
+								<h1 className="result__header">
 									Famous artists represent your music taste
 								</h1>
 
@@ -162,24 +156,14 @@ const Fetch = () => {
 							</section>
 
 							<section className="container">
-								<h1
-									style={{
-										fontSize: "1.5rem",
-										marginBottom: "1rem",
-									}}
-								>
+								<h1 className="result__header">
 									Here are the songs that are tailored for you
 								</h1>
 								<Frame trackIds={data.tracks} />
 							</section>
 
 							<section className="container">
-								<h1
-									style={{
-										fontSize: "1.5rem",
-										marginBottom: "1rem",
-									}}
-								>
+								<h1 className="result__header">
 									This playlist might be your cup of tea
 								</h1>
 								<Playlist playlist={playlist} />

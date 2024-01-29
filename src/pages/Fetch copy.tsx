@@ -11,6 +11,9 @@ import Playlist from "../components/Playlist/Playlist";
 // Data
 import Sample from "../assets/data/sample.json";
 
+// Style
+import "../assets/Fetch.css";
+
 const Fetch2 = () => {
 	const [loadingComplete, setLoadingComplete] = useState(false);
 	const { color, mood, characteristics, artists, tracks, playlist } = Sample;
@@ -34,15 +37,11 @@ const Fetch2 = () => {
 				<>
 					<section className="container">
 						<motion.h1
+							className="result__title"
 							initial={{ opacity: 0 }}
 							animate={{ opacity: 1 }}
 							transition={{ duration: 1, delay: 0.5 }}
 							style={{
-								fontSize: "2.5rem",
-								fontWeight: 700,
-								textAlign: "center",
-								marginBottom: "2rem",
-								marginTop: "2rem",
 								color: color,
 							}}
 						>
@@ -92,11 +91,7 @@ const Fetch2 = () => {
 							transition={{ duration: 1, delay: 1 }}
 						>
 							<section className="container">
-								<h1
-									style={{
-										fontSize: "1.5rem",
-									}}
-								>
+								<h1 className="result__header">
 									Famous artists represent your music taste
 								</h1>
 
@@ -112,24 +107,14 @@ const Fetch2 = () => {
 							</section>
 
 							<section className="container">
-								<h1
-									style={{
-										fontSize: "1.5rem",
-										marginBottom: "1rem",
-									}}
-								>
+								<h1 className="result__header">
 									Here are the songs that are tailored for you
 								</h1>
 								<Frame trackIds={tracks} />
 							</section>
 
 							<section className="container">
-								<h1
-									style={{
-										fontSize: "1.5rem",
-										marginBottom: "1rem",
-									}}
-								>
+								<h1 className="result__header">
 									This playlist might be your cup of tea
 								</h1>
 								<Playlist playlist={playlist} />

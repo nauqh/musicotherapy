@@ -4,6 +4,11 @@
 	padding: 1rem;
 }
 
+.loading__container h1 {
+	margin: 0;
+	padding: 0;
+}
+
 .loading {
 	margin-top: 2rem;
 	color: var(--text-color);

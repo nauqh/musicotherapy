@@ -50,7 +50,7 @@ const Home = () => {
 
 						<div className="home__input">
 							<p className="home__description">
-								Or upload your Spotify playlist below
+								Upload your Spotify playlist below
 							</p>
 							<div className="input-container">
 								<form action="">
