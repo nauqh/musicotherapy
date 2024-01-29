@@ -20,9 +20,11 @@ const Input = () => {
 		Valence: 40,
 	});
 	const [notes, setNotes] = useState("");
+	const [genre, setGenre] = useState<FilterKey>();
 
 	const handleFilterChange = (filter: FilterKey) => {
 		setSliderValues(Features[filter]);
+		setGenre(filter);
 	};
 	const handleButtonClick = () => {
 		const features = Object.fromEntries(
@@ -34,7 +36,10 @@ const Input = () => {
 		console.log(features);
 		console.log(notes);
 		navigate("/test", {
-			state: { description: notes ? notes : "soft korean pop indie" },
+			state: {
+				description: notes ? notes : "soft korean pop indie",
+				genre: genre,
+			},
 		});
 	};
 
