@@ -31,7 +31,7 @@ const Home = () => {
 						<h1 className="home__title">How sick is your music?</h1>
 						<p className="home__description">
 							Our sophisticated AI diagnoses your funky taste in
-							music! And prescribes you some harmonic remedy
+							music and prescribes you some harmonic remedy
 						</p>
 
 						<div className="button-container">
