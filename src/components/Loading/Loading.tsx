@@ -33,7 +33,7 @@ const Loading: React.FC = () => {
 					marginTop: "5rem",
 				}}
 			>
-				&gt; Initializing large language model...
+				&gt; Process usually takes approx 20s...
 			</motion.h1>
 			<motion.h1
 				initial={{ opacity: 0 }}
@@ -45,7 +45,7 @@ const Loading: React.FC = () => {
 					marginTop: "1rem",
 				}}
 			>
-				&gt; Process usually takes approx 20s...
+				&gt; Initializing large language model...
 			</motion.h1>
 			<motion.h1
 				initial={{ opacity: 0 }}
@@ -91,6 +91,7 @@ const Loading: React.FC = () => {
 				className="loading"
 				style={{
 					fontWeight: 400,
+					marginTop: "2rem",
 				}}
 			>
 				Based on your listening habits, we can tell your kind of

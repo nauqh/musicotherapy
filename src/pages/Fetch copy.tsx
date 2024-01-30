@@ -24,7 +24,7 @@ const Fetch2 = () => {
 		// Loading completion after 10 seconds
 		const loadingTimer = setTimeout(() => {
 			setLoadingComplete(true);
-		}, 20000);
+		}, 25000);
 
 		// Cleanup the timer to avoid memory leaks
 		return () => clearTimeout(loadingTimer);
