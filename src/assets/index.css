@@ -111,9 +111,3 @@ p {
 		padding: 1rem;
 	}
 }
-
-@media screen and (min-width: 1500px) {
-	body {
-		zoom: 1.2;
-	}
-}
