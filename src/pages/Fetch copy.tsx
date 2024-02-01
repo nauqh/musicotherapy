@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { useLocation } from "react-router-dom";
 import { motion } from "framer-motion";
 
 // Components
@@ -9,17 +10,20 @@ import Artist from "../components/Artist/Artist";
 import Playlist from "../components/Playlist/Playlist";
 
 // Data
-import Sample from "../assets/data/sample.json";
+import Sample from "../assets/data/Korean Soft Indie.json";
 
 // Style
 import "../assets/Fetch.css";
 
 const Fetch2 = () => {
+	const location = useLocation();
+
 	const [loadingComplete, setLoadingComplete] = useState(false);
 	const { color, mood, characteristics, artists, tracks, playlist } = Sample;
 
 	const [firstWriterComplete, setFirstWriterComplete] = useState(false);
 	const [secondWriterComplete, setSecondWriterComplete] = useState(false);
+
 	useEffect(() => {
 		// Loading completion after 10 seconds
 		const loadingTimer = setTimeout(() => {

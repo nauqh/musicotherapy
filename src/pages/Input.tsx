@@ -70,7 +70,7 @@ const Input = () => {
 						padding: "0 2rem",
 					}}
 				>
-					Pick a genre you like, or create your own custom preference
+					Pick a genre you like, and add your own custom preference
 				</h1>
 				<WorkFilter onFilterChange={handleFilterChange} />
 			</section>
