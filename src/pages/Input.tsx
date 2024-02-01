@@ -26,6 +26,14 @@ const Input = () => {
 		setSliderValues(Features[filter]);
 		setGenre(filter);
 	};
+
+	const handleSliderChange = (name: string, value: number) => {
+		setSliderValues((prevValues) => ({
+			...prevValues,
+			[name]: value,
+		}));
+	};
+
 	const handleButtonClick = () => {
 		const features = Object.fromEntries(
 			Object.entries(sliderValues).map(([key, value]) => [
@@ -43,11 +51,8 @@ const Input = () => {
 		});
 	};
 
-	const handleSliderChange = (name: string, value: number) => {
-		setSliderValues((prevValues) => ({
-			...prevValues,
-			[name]: value,
-		}));
+	const handleDiagnoseSelect = (text: string) => {
+		navigate("/sample", { state: { text } });
 	};
 
 	return (
@@ -69,7 +74,12 @@ const Input = () => {
 				<WorkFilter onFilterChange={handleFilterChange} />
 			</section>
 
-			<section className="container">
+			<section
+				className="container"
+				style={{
+					marginBottom: 0,
+				}}
+			>
 				<Slider
 					name="Danceability"
 					description="Danceability describes how suitable a track is for dancing based on a combination of musical elements"
@@ -127,9 +137,83 @@ const Input = () => {
 
 			<footer className="container">
 				<div className="button-alter" onClick={handleButtonClick}>
-					Give me new songs
+					Prescribe me new songs
 				</div>
 			</footer>
+
+			<section
+				className="container"
+				style={{
+					marginTop: "4rem",
+					marginBottom: "5rem",
+				}}
+			>
+				<h1
+					style={{
+						fontSize: "1rem",
+						marginBottom: "2rem",
+						textAlign: "center",
+					}}
+				>
+					Or choose one from our popular diagnoses
+				</h1>
+				<div className="container-grid">
+					<div
+						className="button-brick b1"
+						onClick={() => handleDiagnoseSelect("Pop Punk")}
+					>
+						Pop Punk
+					</div>
+					<div
+						className="button-brick grid-3 b2"
+						onClick={() =>
+							handleDiagnoseSelect("Korean Soft Indie")
+						}
+					>
+						Korean Soft Indie
+					</div>
+
+					<div
+						className="button-brick b3"
+						onClick={() => handleDiagnoseSelect("R&B")}
+					>
+						R&B
+					</div>
+					<div
+						className="button-brick b4"
+						onClick={() => handleDiagnoseSelect("Lo-fi")}
+					>
+						Lo-fi
+					</div>
+					<div
+						className="button-brick grid-2 b5"
+						onClick={() => handleDiagnoseSelect("Rap Hip-hop")}
+					>
+						Rap Hip-hop
+					</div>
+
+					<div
+						className="button-brick grid-2 b6"
+						onClick={() =>
+							handleDiagnoseSelect("Disney Soundtracks")
+						}
+					>
+						Disney Soundtracks
+					</div>
+					<div
+						className="button-brick"
+						onClick={() => handleDiagnoseSelect("EDM")}
+					>
+						EDM
+					</div>
+					<div
+						className="button-brick"
+						onClick={() => handleDiagnoseSelect("Mandopo")}
+					>
+						Mandopop
+					</div>
+				</div>
+			</section>
 		</motion.div>
 	);
 };

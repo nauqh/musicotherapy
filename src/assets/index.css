@@ -66,6 +66,23 @@ p {
 	padding: 1rem;
 }
 
+.container-grid {
+	margin: auto;
+	display: grid;
+	margin-bottom: 2rem;
+	place-content: center;
+	gap: 10px;
+	grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-2 {
+	grid-column: span 2;
+}
+
+.grid-3 {
+	grid-column: span 3;
+}
+
 .button {
 	display: inline-block;
 	background-color: var(--text-color);
@@ -84,8 +101,19 @@ p {
 	padding: 0.5rem 1rem;
 }
 
+.button-brick {
+	padding: 0.5rem 1rem;
+	color: var(--text-color);
+	background-color: #fafafa;
+	font-size: 1.2rem;
+	text-align: center;
+	border: solid 1px #161513;
+	border-radius: 0.5rem;
+}
+
 .button:hover,
-.button-alter:hover {
+.button-alter:hover,
+.button-brick:hover {
 	background-color: var(--secondary-color);
 	border-color: var(--secondary-color);
 	color: #fff;
@@ -101,6 +129,10 @@ p {
 	#result__title {
 		font-size: 2rem;
 	}
+
+	.container-grid {
+		margin: 2rem;
+	}
 }
 
 @media screen and (min-width: 500px) {
@@ -109,5 +141,14 @@ p {
 		flex-direction: row;
 		justify-content: center;
 		padding: 1rem;
+	}
+	.container-grid {
+		width: 400px;
+	}
+}
+
+@media screen and (min-width: 1048px) {
+	.container-grid {
+		width: 600px;
 	}
 }
