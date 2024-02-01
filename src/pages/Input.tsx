@@ -52,6 +52,7 @@ const Input = () => {
 	};
 
 	const handleDiagnoseSelect = (text: string) => {
+		console.log(text);
 		navigate("/sample", { state: { text } });
 	};
 
