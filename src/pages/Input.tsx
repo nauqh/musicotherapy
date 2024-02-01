@@ -52,8 +52,7 @@ const Input = () => {
 	};
 
 	const handleDiagnoseSelect = (text: string) => {
-		console.log(text);
-		navigate("/sample", { state: { text } });
+		navigate("/test", { state: { text } });
 	};
 
 	return (
@@ -209,7 +208,7 @@ const Input = () => {
 					</div>
 					<div
 						className="button-brick"
-						onClick={() => handleDiagnoseSelect("Mandopo")}
+						onClick={() => handleDiagnoseSelect("Mandopop")}
 					>
 						Mandopop
 					</div>

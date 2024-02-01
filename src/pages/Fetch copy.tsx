@@ -10,7 +10,7 @@ import Artist from "../components/Artist/Artist";
 import Playlist from "../components/Playlist/Playlist";
 
 // Data
-import Sample from "../assets/data/Korean Soft Indie.json";
+import Sample from "../assets/data/sample.json";
 
 // Style
 import "../assets/Fetch.css";
@@ -19,7 +19,8 @@ const Fetch2 = () => {
 	const location = useLocation();
 
 	const [loadingComplete, setLoadingComplete] = useState(false);
-	const { color, mood, characteristics, artists, tracks, playlist } = Sample;
+	const { color, mood, characteristics, artists, tracks, playlist } =
+		Sample[location.state.text as keyof typeof Sample];
 
 	const [firstWriterComplete, setFirstWriterComplete] = useState(false);
 	const [secondWriterComplete, setSecondWriterComplete] = useState(false);
@@ -98,7 +99,7 @@ const Fetch2 = () => {
 									Famous artists represent your music taste
 								</h1>
 
-								{artists.map((artist, index) => (
+								{artists.map((artist: any, index: any) => (
 									<Artist
 										key={index}
 										img={artist.img}
