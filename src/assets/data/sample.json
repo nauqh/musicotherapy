@@ -69,7 +69,7 @@
     "Mandopop": {
         "genre": "Mandopop",
         "mood": "melodic - sentimental - vibrant",
-        "color": "#FF9A8B",
+        "color": "#284b63",
         "characteristics": [
             "Your music taste leans a bit towards Mandopop, which stands for 'Mandarin Popular Music'. This genre predominantly features Chinese-language pop songs and is heavily influenced by Western pop, R&B, and rock. Mandopop songs are known for their catchy melodies and wide range of emotional expressions.",
             "Mandopop is marked by its use of Mandarin dialect, appealing to a vast audience across China, Taiwan, Singapore, and Malaysia, among others. Artists often focus on themes of love, friendship, and personal growth, with both upbeat numbers and touching ballads. The production quality is typically high, with a clear focus on the vocal performances."
@@ -136,7 +136,7 @@
     "Lo-fi": {
         "genre": "Lo-fi Hip Hop",
         "mood": "chill - mellow - soothing",
-        "color": "#8e9aaf",
+        "color": "#3c6e71",
         "characteristics": [
             "Your music taste leans a bit towards Lo-fi Hip Hop, an aesthetic that combines elements of hip hop and electronic music, characterized by its laid-back vibe and dusty sound texture. It typically features a low-fidelity production, which gives it a warm and intimate feel, often accompanied by crackling vinyl sounds and ambient noises.",
             "The genre is perfect for relaxation, studying, or working as it provides a non-intrusive, ambient soundscape. It's all about the atmosphere rather than complex lyricism or aggressive beats. Lo-fi Hip Hop is a haven for those seeking solace in the soft beats and repetitive melodic harmonies that offer a gentle escape from the hustle and bustle of daily life."
@@ -201,12 +201,12 @@
         }
     },
     "Rap Hip-hop": {
-        "genre": "US-UK Hip-Hop",
+        "genre": "Rap Hip-Hop",
         "mood": "energetic - gritty - expressive",
-        "color": "#ff5733",
+        "color": "#e29578",
         "characteristics": [
-            "Your music taste leans a bit towards US-UK Hip-Hop, a genre that thrives on its rhythmic flow and lyrical prowess. This sound is often rooted in the streets with beats that feature heavy bass, crisp snares, and a lyrical emphasis on wordplay, social issues, and personal experiences.",
-            "As a dynamic and influential genre, US-UK Hip-Hop showcases a diverse range of styles, from the smooth and laid-back to the raw and aggressive. Artists in this genre are known for their ability to create anthems that resonate with a broad audience, often reflecting the complexities of urban life and the human condition."
+            "Your music taste leans a bit towards US-UK Rap Hip-Hop, a genre that thrives on its rhythmic flow and lyrical prowess. This sound is often rooted in the streets with beats that feature heavy bass, crisp snares, and a lyrical emphasis on wordplay, social issues, and personal experiences.",
+            "As a dynamic and influential genre, Rap Hip-Hop showcases a diverse range of styles, from the smooth and laid-back to the raw and aggressive. Artists in this genre are known for their ability to create anthems that resonate with a broad audience, often reflecting the complexities of urban life and the human condition."
         ],
         "artists": [
             {

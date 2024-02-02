@@ -18,7 +18,7 @@ import "../assets/Fetch.css";
 const Diagnose = () => {
 	const location = useLocation();
 
-	const [loadingComplete, setLoadingComplete] = useState(false);
+	const [loadingComplete, setLoadingComplete] = useState(true);
 	const { color, mood, characteristics, artists, tracks, playlist } =
 		Sample[location.state.text as keyof typeof Sample];
 
