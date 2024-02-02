@@ -58,7 +58,6 @@
 }
 
 .home__footer {
-	padding: 0 1rem;
 	display: flex;
 	justify-content: space-between;
 	align-self: flex-end;
@@ -164,6 +163,13 @@
 	.home__shadow {
 		width: 250px;
 		height: 40px;
+	}
+
+	.home__footer {
+		width: 1024px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 0;
 	}
 }
 
