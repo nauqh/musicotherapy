@@ -400,5 +400,72 @@
             "type": "playlist",
             "uri": "spotify:playlist:4TuSHffPUigwvlMPT2Mnc9"
         }
+    },
+    "EDM": {
+        "genre": "Electronic Dance Music (EDM)",
+        "mood": "energetic - vibrant - euphoric",
+        "color": "#ff6f00",
+        "characteristics": [
+            "Your music taste leans a bit towards Electronic Dance Music (EDM), a genre that thrives in the vibrant culture of nightclubs and festivals. It features synthesized beats, pulsating rhythms, and is often characterized by a relentless energy that commands you to move.",
+            "EDM is a sonic exploration of texture and tempo, often leading to climactic builds followed by thunderous drops. It serves as an escape into a world of heightened sensations, where each track is a journey through soundscapes designed to electrify the soul and invigorate the spirit."
+        ],
+        "artists": [
+            {
+                "name": "ILLENIUM",
+                "img": "https://i.scdn.co/image/ab6761610000517481a0ab3a9a4326929a01b0f1",
+                "id": "45eNHdiiabvmbp4erw26rg",
+                "content": "is known for their melodic bass-driven tracks that blend emotional storytelling with heavy-hitting drops. Their music often features collaborations with vocalists, creating a powerful dynamic between the lyrics and the electronic elements."
+            },
+            {
+                "name": "REZZ",
+                "img": "https://i.scdn.co/image/ab67616100005174cc758499cb4aa667c7923042",
+                "id": "4aKdmOXdUKX07HVd3sGgzw",
+                "content": "is recognized for their dark, genre-blending sound and hypnotic visual performances. Their music incorporates elements of bass-heavy genres with eerie and intense melodies, creating an immersive experience that captivates their audience."
+            }
+        ],
+        "tracks": [
+            "2xUvfzTPwPPMz6oifXCtUg",
+            "5bFuHlXKw66Uu2cHKn5bf8",
+            "17PYY5ja73jCMS9BuiakxQ",
+            "2UnHNWMm8B5Um8qv60xCFn",
+            "7lY0fJVuJMY790QoVaAxOT",
+            "383QSLpU6zuurrhV7C3WTV"
+        ],
+        "playlist": {
+            "collaborative": false,
+            "description": "Home is where the main stage is. 💗",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/playlist/37i9dQZF1DX1kCIzMYtzum"
+            },
+            "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX1kCIzMYtzum",
+            "id": "37i9dQZF1DX1kCIzMYtzum",
+            "images": [
+                {
+                    "height": null,
+                    "url": "https://i.scdn.co/image/ab67706f00000003d726493b531d4e8f6910a969",
+                    "width": null
+                }
+            ],
+            "name": "EDM 2024",
+            "owner": {
+                "display_name": "Spotify",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/user/spotify"
+                },
+                "href": "https://api.spotify.com/v1/users/spotify",
+                "id": "spotify",
+                "type": "user",
+                "uri": "spotify:user:spotify"
+            },
+            "primary_color": null,
+            "public": null,
+            "snapshot_id": "MTcwNjg1MDAwMCwwMDAwMDAwMDhlYjc4ODI5MmI4MzY0ZjlmMjhmMjJmY2E5NDQ5MTVi",
+            "tracks": {
+                "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX1kCIzMYtzum/tracks",
+                "total": 100
+            },
+            "type": "playlist",
+            "uri": "spotify:playlist:37i9dQZF1DX1kCIzMYtzum"
+        }
     }
 }
