@@ -199,5 +199,72 @@
             "type": "playlist",
             "uri": "spotify:playlist:0vvXsWCC9xrXsKd4FyS8kM"
         }
+    },
+    "Rap Hip-hop": {
+        "genre": "US-UK Hip-Hop",
+        "mood": "energetic - gritty - expressive",
+        "color": "#ff5733",
+        "characteristics": [
+            "Your music taste leans a bit towards US-UK Hip-Hop, a genre that thrives on its rhythmic flow and lyrical prowess. This sound is often rooted in the streets with beats that feature heavy bass, crisp snares, and a lyrical emphasis on wordplay, social issues, and personal experiences.",
+            "As a dynamic and influential genre, US-UK Hip-Hop showcases a diverse range of styles, from the smooth and laid-back to the raw and aggressive. Artists in this genre are known for their ability to create anthems that resonate with a broad audience, often reflecting the complexities of urban life and the human condition."
+        ],
+        "artists": [
+            {
+                "name": "NF",
+                "img": "https://i.scdn.co/image/ab676161000051741cf142a710a2f3d9b7a62da1",
+                "id": "6fOMl44jA4Sp5b9PpYCkzz",
+                "content": "is recognized for his deeply personal and introspective lyrics, which he delivers with a rapid-fire flow that's both technically precise and emotionally charged. His music often explores themes of mental health, faith, and the struggles of everyday life, set to atmospheric beats and cinematic production."
+            },
+            {
+                "name": "Slowthai",
+                "img": "https://i.scdn.co/image/ab67616100005174d35231e23d5af811b8fdca7a",
+                "id": "3r1XkJ7vCs8kHBSzGvPLdP",
+                "content": "is known for his distinctive British accent and energetic delivery, which blends traditional grime with modern Hip-Hop. His lyrical content frequently addresses political and social issues, with a rawness and honesty that captures the voice of British youth culture. His beats often have a punk influence, reflecting his unique position in the UK music scene."
+            }
+        ],
+        "tracks": [
+            "6nDxePlQIyV1DoGVLVcRpv",
+            "1rOUmfzzwsIh346zCG5vPw",
+            "6Dil3bF8JebOMOeZMvnhY4",
+            "7ccC26pJ3aDG81sS4FwdXF",
+            "6FHwG0Acqd3MYvAIKlI36J",
+            "4mGdjNMo0RonTlOEb7cYg4"
+        ],
+        "playlist": {
+            "collaborative": false,
+            "description": "Rap &amp; HipHop Vibes from 2023 | Drake , Ye , Lil Pump, DYW",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/playlist/65L8m2aO9wyYRHl6MOas9r"
+            },
+            "href": "https://api.spotify.com/v1/playlists/65L8m2aO9wyYRHl6MOas9r",
+            "id": "65L8m2aO9wyYRHl6MOas9r",
+            "images": [
+                {
+                    "height": null,
+                    "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebb3e35f8a308825f164c20a0e1",
+                    "width": null
+                }
+            ],
+            "name": "Rap & HipHop Vibes",
+            "owner": {
+                "display_name": "Good Vibes",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/user/31bs4gsrlikvfgcgxn3c3ztjybcy"
+                },
+                "href": "https://api.spotify.com/v1/users/31bs4gsrlikvfgcgxn3c3ztjybcy",
+                "id": "31bs4gsrlikvfgcgxn3c3ztjybcy",
+                "type": "user",
+                "uri": "spotify:user:31bs4gsrlikvfgcgxn3c3ztjybcy"
+            },
+            "primary_color": null,
+            "public": null,
+            "snapshot_id": "MjI1NCwzM2U4Zjg0Y2VjYzUzNDUxMTI1OGU5NTVmN2MzMTM5ZGI2M2IwY2Zl",
+            "tracks": {
+                "href": "https://api.spotify.com/v1/playlists/65L8m2aO9wyYRHl6MOas9r/tracks",
+                "total": 59
+            },
+            "type": "playlist",
+            "uri": "spotify:playlist:65L8m2aO9wyYRHl6MOas9r"
+        }
     }
 }
