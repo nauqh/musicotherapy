@@ -66,7 +66,7 @@ const Input = () => {
 			<section
 				className="container"
 				style={{
-					marginTop: "4rem",
+					marginTop: "2rem",
 					marginBottom: 0,
 				}}
 			>
