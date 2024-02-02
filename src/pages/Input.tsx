@@ -61,6 +61,80 @@ const Input = () => {
 			animate={{ opacity: 1 }}
 			transition={{ duration: 1, delay: 0.5 }}
 		>
+			<section
+				className="container"
+				style={{
+					marginTop: "4rem",
+					marginBottom: 0,
+				}}
+			>
+				<h1
+					style={{
+						fontSize: "1rem",
+						marginBottom: "2rem",
+						textAlign: "center",
+					}}
+				>
+					Pick a genre from our popular diagnoses
+				</h1>
+				<div className="container-grid">
+					<div
+						className="button-brick b1"
+						onClick={() => handleDiagnoseSelect("Pop Punk")}
+					>
+						Pop Punk
+					</div>
+					<div
+						className="button-brick grid-3 b2"
+						onClick={() =>
+							handleDiagnoseSelect("Korean Soft Indie")
+						}
+					>
+						Korean Soft Indie
+					</div>
+
+					<div
+						className="button-brick b3"
+						onClick={() => handleDiagnoseSelect("R&B")}
+					>
+						R&B
+					</div>
+					<div
+						className="button-brick b4"
+						onClick={() => handleDiagnoseSelect("Lo-fi")}
+					>
+						Lo-fi
+					</div>
+					<div
+						className="button-brick grid-2 b5"
+						onClick={() => handleDiagnoseSelect("Rap Hip-hop")}
+					>
+						Rap Hip-hop
+					</div>
+
+					<div
+						className="button-brick grid-2 b6"
+						onClick={() =>
+							handleDiagnoseSelect("Disney Soundtracks")
+						}
+					>
+						Disney Soundtracks
+					</div>
+					<div
+						className="button-brick"
+						onClick={() => handleDiagnoseSelect("EDM")}
+					>
+						EDM
+					</div>
+					<div
+						className="button-brick"
+						onClick={() => handleDiagnoseSelect("Mandopop")}
+					>
+						Mandopop
+					</div>
+				</div>
+			</section>
+
 			<section className="container">
 				<h1
 					style={{
@@ -69,7 +143,7 @@ const Input = () => {
 						padding: "0 2rem",
 					}}
 				>
-					Pick a genre you like, and add your own custom preference
+					Or custom your own preference
 				</h1>
 				<WorkFilter onFilterChange={handleFilterChange} />
 			</section>
@@ -135,85 +209,16 @@ const Input = () => {
 				/>
 			</section>
 
-			<footer className="container">
+			<footer
+				className="container"
+				style={{
+					marginBottom: "5rem",
+				}}
+			>
 				<div className="button-alter" onClick={handleButtonClick}>
 					Prescribe me new songs
 				</div>
 			</footer>
-
-			<section
-				className="container"
-				style={{
-					marginTop: "4rem",
-					marginBottom: "5rem",
-				}}
-			>
-				<h1
-					style={{
-						fontSize: "1rem",
-						marginBottom: "2rem",
-						textAlign: "center",
-					}}
-				>
-					Or choose one from our popular diagnoses
-				</h1>
-				<div className="container-grid">
-					<div
-						className="button-brick b1"
-						onClick={() => handleDiagnoseSelect("Pop Punk")}
-					>
-						Pop Punk
-					</div>
-					<div
-						className="button-brick grid-3 b2"
-						onClick={() =>
-							handleDiagnoseSelect("Korean Soft Indie")
-						}
-					>
-						Korean Soft Indie
-					</div>
-
-					<div
-						className="button-brick b3"
-						onClick={() => handleDiagnoseSelect("R&B")}
-					>
-						R&B
-					</div>
-					<div
-						className="button-brick b4"
-						onClick={() => handleDiagnoseSelect("Lo-fi")}
-					>
-						Lo-fi
-					</div>
-					<div
-						className="button-brick grid-2 b5"
-						onClick={() => handleDiagnoseSelect("Rap Hip-hop")}
-					>
-						Rap Hip-hop
-					</div>
-
-					<div
-						className="button-brick grid-2 b6"
-						onClick={() =>
-							handleDiagnoseSelect("Disney Soundtracks")
-						}
-					>
-						Disney Soundtracks
-					</div>
-					<div
-						className="button-brick"
-						onClick={() => handleDiagnoseSelect("EDM")}
-					>
-						EDM
-					</div>
-					<div
-						className="button-brick"
-						onClick={() => handleDiagnoseSelect("Mandopop")}
-					>
-						Mandopop
-					</div>
-				</div>
-			</section>
 		</motion.div>
 	);
 };
