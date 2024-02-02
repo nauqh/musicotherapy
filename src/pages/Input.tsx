@@ -7,11 +7,7 @@ import Features from "../assets/data/features.json";
 import Slider from "../components/Slider/Slider";
 import WorkFilter from "../components/Filter/WorkFilter";
 
-type FilterKey =
-	| "Euphoric/Upbeat"
-	| "Melancholic/Ambient"
-	| "Tense/Anxious"
-	| "Triumphant/Inspiring";
+type FilterKey = "Upbeat" | "Ambient" | "Anxious" | "Inspiring";
 
 const Input = () => {
 	const navigate = useNavigate();
@@ -145,6 +141,7 @@ const Input = () => {
 						fontSize: "1rem",
 						margin: "2rem 0",
 						padding: "0 2rem",
+						textAlign: "center",
 					}}
 				>
 					Or custom your own preference

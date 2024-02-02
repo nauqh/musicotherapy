@@ -1,11 +1,7 @@
 import React, { useEffect } from "react";
 import "./WorkFilter.css";
 
-type FilterKey =
-	| "Euphoric/Upbeat"
-	| "Melancholic/Ambient"
-	| "Tense/Anxious"
-	| "Triumphant/Inspiring";
+type FilterKey = "Upbeat" | "Ambient" | "Anxious" | "Inspiring";
 
 interface WorkFilterProps {
 	onFilterChange: (filter: FilterKey) => void;
@@ -18,7 +14,7 @@ const WorkFilter: React.FC<WorkFilterProps> = ({ onFilterChange }) => {
 		function activeWork(this: HTMLElement) {
 			linkWork.forEach((l) => l.classList.remove("active-work"));
 			this.classList.add("active-work");
-			onFilterChange(this.innerText.toLowerCase() as FilterKey);
+			onFilterChange(this.innerText as FilterKey);
 		}
 
 		linkWork.forEach((l) => l.addEventListener("click", activeWork));
@@ -30,10 +26,10 @@ const WorkFilter: React.FC<WorkFilterProps> = ({ onFilterChange }) => {
 
 	return (
 		<div className="work__filters">
-			<span className="work__item">Euphoric/Upbeat</span>
-			<span className="work__item">Melancholic/Ambient</span>
-			<span className="work__item">Tense/Anxious</span>
-			<span className="work__item">Triumphant/Inspiring</span>
+			<span className="work__item">Upbeat</span>
+			<span className="work__item">Ambient</span>
+			<span className="work__item">Anxious</span>
+			<span className="work__item">Inspiring</span>
 		</div>
 	);
 };
