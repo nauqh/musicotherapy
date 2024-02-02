@@ -18,7 +18,7 @@ function App() {
 					<Route path="/home" element={<Home />} />
 					<Route path="/input" element={<Input />} />
 					<Route path="/fetch" element={<Fetch />} />
-					<Route path="/test" element={<Diagnose />} />
+					<Route path="/diagnose" element={<Diagnose />} />
 				</Routes>
 			</BrowserRouter>
 		</div>

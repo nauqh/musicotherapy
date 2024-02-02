@@ -43,7 +43,7 @@ const Input = () => {
 		);
 		console.log(features);
 		console.log(notes);
-		navigate("/test", {
+		navigate("/diagnose", {
 			state: {
 				description: notes ? notes : "soft korean pop indie",
 				genre: genre,
@@ -52,7 +52,7 @@ const Input = () => {
 	};
 
 	const handleDiagnoseSelect = (text: string) => {
-		navigate("/test", { state: { text } });
+		navigate("/diagnose", { state: { text } });
 	};
 
 	return (
