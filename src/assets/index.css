@@ -147,6 +147,18 @@ p {
 	}
 }
 
+@media screen and (min-width: 600px) {
+	.footer__content {
+		width: 700px;
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	.footer__content {
+		width: auto;
+	}
+}
+
 @media screen and (min-width: 1048px) {
 	.container-grid {
 		width: 600px;

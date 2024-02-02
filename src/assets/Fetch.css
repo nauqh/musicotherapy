@@ -5,6 +5,13 @@
 	margin-bottom: 2rem;
 }
 
+@media screen and (max-width: 700px) {
+	.result__title,
+	.result__header {
+		padding: 1rem;
+	}
+}
+
 @media screen and (min-width: 700px) {
 	.result__header {
 		font-size: 1.8rem;
