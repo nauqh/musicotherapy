@@ -333,5 +333,72 @@
             "type": "playlist",
             "uri": "spotify:playlist:37i9dQZF1DX1ewVhAJ17m4"
         }
+    },
+    "Disney Soundtracks": {
+        "genre": "Disney Soundtracks",
+        "mood": "magical - nostalgic - uplifting",
+        "color": "#3a0ca3",
+        "characteristics": [
+            "Your music taste leans a bit towards Disney Soundtracks, which are often as enchanting as the movies they complement. These soundtracks feature a diverse range of songs, from soaring ballads to energetic ensemble numbers, each crafted to enhance the storytelling and emotional impact of the animated classics.",
+            "The genre is characterized by memorable melodies, grand orchestral arrangements, and often, a touch of whimsy. Lyrics are typically family-friendly, aiming to inspire and instill a sense of wonder. The voices of the characters, as portrayed by talented voice actors and singers, bring the music to life, ensuring each song's place in the hearts of listeners of all ages."
+        ],
+        "artists": [
+            {
+                "name": "Jodi Benson",
+                "img": "https://i.scdn.co/image/ab67616100005174583a4cf451be21040cfaa0a4",
+                "id": "4mmMtabvFCKA6HfmVmitNH",
+                "content": "is cherished for her role as the original voice of Ariel in Disney's 'The Little Mermaid.' Her rendition of 'Part of Your World' is iconic, showcasing her clear, emotive vocal style that perfectly captures the longing and dreams of her character."
+            },
+            {
+                "name": "Lea Salonga",
+                "img": "https://i.scdn.co/image/79cb9dd9630ff9e1224356bdab99d6594402eb19",
+                "id": "1GlMjIezcLwV3OFlX0uXOv",
+                "content": "is celebrated for providing the singing voice of Princess Jasmine in 'Aladdin' and the title role in 'Mulan.' Her powerful and expressive performances, including 'A Whole New World' and 'Reflection,' have made her an integral part of Disney's musical legacy."
+            }
+        ],
+        "tracks": [
+            "2HFMoVGfie1A3AtF2bASGG",
+            "75e1EYhLzB3mQZQBcRmklN",
+            "63Q9hAFTga7rqYRrAhwIyR",
+            "3QvZUbMhFBdUTmegQSkRH6",
+            "15mklBd59tQlB06vqpvJgo",
+            "58gMki4qBT7OT80fYdx4UZ"
+        ],
+        "playlist": {
+            "collaborative": false,
+            "description": "",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/playlist/4TuSHffPUigwvlMPT2Mnc9"
+            },
+            "href": "https://api.spotify.com/v1/playlists/4TuSHffPUigwvlMPT2Mnc9",
+            "id": "4TuSHffPUigwvlMPT2Mnc9",
+            "images": [
+                {
+                    "height": null,
+                    "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebbb9512cec524fa8a339e50f5e",
+                    "width": null
+                }
+            ],
+            "name": "DISNEY MUSIC THAT GOES HARD🐭🏰✨",
+            "owner": {
+                "display_name": "Tess",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/user/4ql6teaepvumhsvp0ib6nzzk3"
+                },
+                "href": "https://api.spotify.com/v1/users/4ql6teaepvumhsvp0ib6nzzk3",
+                "id": "4ql6teaepvumhsvp0ib6nzzk3",
+                "type": "user",
+                "uri": "spotify:user:4ql6teaepvumhsvp0ib6nzzk3"
+            },
+            "primary_color": null,
+            "public": null,
+            "snapshot_id": "NjAsYmFlNTdmOGM2ZDkyNTUwMjBlZjMxZDAzOThiYjA2MTk4ODI5NGY5MQ==",
+            "tracks": {
+                "href": "https://api.spotify.com/v1/playlists/4TuSHffPUigwvlMPT2Mnc9/tracks",
+                "total": 56
+            },
+            "type": "playlist",
+            "uri": "spotify:playlist:4TuSHffPUigwvlMPT2Mnc9"
+        }
     }
 }

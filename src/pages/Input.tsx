@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 
+// Components
 import TextInput from "../components/TextInput/TextInput";
 import Features from "../assets/data/features.json";
 import Slider from "../components/Slider/Slider";
@@ -81,13 +82,13 @@ const Input = () => {
 				</h1>
 				<div className="container-grid">
 					<div
-						className="button-brick b1"
+						className="button-brick"
 						onClick={() => handleDiagnoseSelect("Pop Punk")}
 					>
 						Pop Punk
 					</div>
 					<div
-						className="button-brick grid-3 b2"
+						className="button-brick grid-3"
 						onClick={() =>
 							handleDiagnoseSelect("Korean Soft Indie")
 						}
@@ -96,26 +97,26 @@ const Input = () => {
 					</div>
 
 					<div
-						className="button-brick b3"
+						className="button-brick"
 						onClick={() => handleDiagnoseSelect("R&B")}
 					>
 						R&B
 					</div>
 					<div
-						className="button-brick b4"
+						className="button-brick"
 						onClick={() => handleDiagnoseSelect("Lo-fi")}
 					>
 						Lo-fi
 					</div>
 					<div
-						className="button-brick grid-2 b5"
+						className="button-brick grid-2"
 						onClick={() => handleDiagnoseSelect("Rap Hip-hop")}
 					>
 						Rap Hip-hop
 					</div>
 
 					<div
-						className="button-brick grid-2 b6"
+						className="button-brick grid-2"
 						onClick={() =>
 							handleDiagnoseSelect("Disney Soundtracks")
 						}
