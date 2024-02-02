@@ -266,5 +266,72 @@
             "type": "playlist",
             "uri": "spotify:playlist:65L8m2aO9wyYRHl6MOas9r"
         }
+    },
+    "Pop Punk": {
+        "genre": "Pop Punk",
+        "mood": "energetic - rebellious - nostalgic",
+        "color": "#e91e63",
+        "characteristics": [
+            "Your music taste leans a bit towards Pop Punk, characterized by its high-energy rhythms and catchy melodies blended with the raw, fast-paced edge of punk rock. This genre often features power chords, fast drumming, and lyrics that deal with themes of adolescence, relationships, and personal challenges.",
+            "Pop Punk bands typically deliver a spirited, youthful vibe that combines the angst and DIY ethic of punk with the polished production and accessibility of pop music. It's the kind of genre that incites spirited sing-alongs and can often be heard at skate parks and summer festivals."
+        ],
+        "artists": [
+            {
+                "name": "Neck Deep",
+                "img": "https://i.scdn.co/image/ab6761610000517438597d1ca49138767b0746d1",
+                "id": "2TM0qnbJH4QPhGMCdPt7fH",
+                "content": "is a Welsh band known for their vibrant and catchy tunes that encapsulate the essence of Pop Punk. Their music often revolves around themes of growing up and self-discovery, presented through anthemic choruses and memorable hooks that resonate with a sense of youthful exuberance."
+            },
+            {
+                "name": "State Champs",
+                "img": "https://i.scdn.co/image/ab67616100005174e7425b5afa1532c080bd6753",
+                "id": "1qqdO7xMptucPDMopsOdkr",
+                "content": "is an American band that has been making waves with their fresh take on Pop Punk. Their sound is characterized by upbeat tempos, emotionally charged lyrics, and a seamless blend of old-school punk elements with modern pop sensibilities. Their live performances are known for their infectious energy and connection with the audience."
+            }
+        ],
+        "tracks": [
+            "6KOFKEJxmmkQaVKEFQaN57",
+            "3OC8ZQhCA1P82xie7CqmO2",
+            "0UtBjb4YUMbbtIKNXUeCLx",
+            "0XSONcnJIcsQys61ZRv7g0",
+            "0cY6CAgB5wShSOTT3lQl2t",
+            "4oMKSL4c8UctYTSS2Fdu4b"
+        ],
+        "playlist": {
+            "collaborative": false,
+            "description": "All the best new songs from the pop punk scene. Cover: NOAHFINNCE",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/playlist/37i9dQZF1DX1ewVhAJ17m4"
+            },
+            "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX1ewVhAJ17m4",
+            "id": "37i9dQZF1DX1ewVhAJ17m4",
+            "images": [
+                {
+                    "height": null,
+                    "url": "https://i.scdn.co/image/ab67706f00000003e425af7444cfdf8d8f266521",
+                    "width": null
+                }
+            ],
+            "name": "Pop Punk's Not Dead",
+            "owner": {
+                "display_name": "Spotify",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/user/spotify"
+                },
+                "href": "https://api.spotify.com/v1/users/spotify",
+                "id": "spotify",
+                "type": "user",
+                "uri": "spotify:user:spotify"
+            },
+            "primary_color": null,
+            "public": null,
+            "snapshot_id": "MTcwNTAyMjM2NiwwMDAwMDAwMDNiNWM1YWY1YzYxZTUwOGE2M2Q4OGI0MTUxMTliYzFj",
+            "tracks": {
+                "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX1ewVhAJ17m4/tracks",
+                "total": 88
+            },
+            "type": "playlist",
+            "uri": "spotify:playlist:37i9dQZF1DX1ewVhAJ17m4"
+        }
     }
 }
