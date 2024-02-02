@@ -1,7 +1,11 @@
 import React, { useEffect } from "react";
 import "./WorkFilter.css";
 
-type FilterKey = "pop" | "rock" | "edm" | "rnb";
+type FilterKey =
+	| "Euphoric/Upbeat"
+	| "Melancholic/Ambient"
+	| "Tense/Anxious"
+	| "Triumphant/Inspiring";
 
 interface WorkFilterProps {
 	onFilterChange: (filter: FilterKey) => void;
@@ -26,10 +30,10 @@ const WorkFilter: React.FC<WorkFilterProps> = ({ onFilterChange }) => {
 
 	return (
 		<div className="work__filters">
-			<span className="work__item">Pop</span>
-			<span className="work__item">EDM</span>
-			<span className="work__item">RnB</span>
-			<span className="work__item">Rock</span>
+			<span className="work__item">Euphoric/Upbeat</span>
+			<span className="work__item">Melancholic/Ambient</span>
+			<span className="work__item">Tense/Anxious</span>
+			<span className="work__item">Triumphant/Inspiring</span>
 		</div>
 	);
 };

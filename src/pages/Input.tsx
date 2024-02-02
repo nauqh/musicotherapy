@@ -7,7 +7,11 @@ import Features from "../assets/data/features.json";
 import Slider from "../components/Slider/Slider";
 import WorkFilter from "../components/Filter/WorkFilter";
 
-type FilterKey = "pop" | "rock" | "edm" | "rnb";
+type FilterKey =
+	| "Euphoric/Upbeat"
+	| "Melancholic/Ambient"
+	| "Tense/Anxious"
+	| "Triumphant/Inspiring";
 
 const Input = () => {
 	const navigate = useNavigate();
