@@ -144,7 +144,7 @@ const Input = () => {
 						textAlign: "center",
 					}}
 				>
-					Or custom your own preference
+					Or choose a mood and custom your own preference
 				</h1>
 				<WorkFilter onFilterChange={handleFilterChange} />
 			</section>
