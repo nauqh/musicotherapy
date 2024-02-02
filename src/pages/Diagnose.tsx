@@ -15,7 +15,7 @@ import Sample from "../assets/data/sample.json";
 // Style
 import "../assets/Fetch.css";
 
-const Fetch2 = () => {
+const Diagnose = () => {
 	const location = useLocation();
 
 	const [loadingComplete, setLoadingComplete] = useState(false);
@@ -133,4 +133,4 @@ const Fetch2 = () => {
 	);
 };
 
-export default Fetch2;
+export default Diagnose;

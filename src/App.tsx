@@ -2,7 +2,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import Fetch from "./pages/Fetch";
 import Input from "./pages/Input";
-import Fetch2 from "./pages/Fetch copy";
+import Diagnose from "./pages/Diagnose";
 
 function App() {
 	return (
@@ -13,7 +13,7 @@ function App() {
 					<Route path="/home" element={<Home />} />
 					<Route path="/input" element={<Input />} />
 					<Route path="/fetch" element={<Fetch />} />
-					<Route path="/test" element={<Fetch2 />} />
+					<Route path="/test" element={<Diagnose />} />
 				</Routes>
 			</BrowserRouter>
 		</div>
