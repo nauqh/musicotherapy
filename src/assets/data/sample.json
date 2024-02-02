@@ -467,5 +467,72 @@
             "type": "playlist",
             "uri": "spotify:playlist:37i9dQZF1DX1kCIzMYtzum"
         }
+    },
+    "R&B": {
+        "genre": "R&B",
+        "mood": "sultry - smooth - soulful",
+        "color": "#343a40",
+        "characteristics": [
+            "Your music taste leans a bit towards R&B, a genre renowned for its rich vocal performances and smooth, groovy beats. It often incorporates elements from soul, funk, and hip-hop, creating a sound that's both contemporary and timeless.",
+            "The genre is known for its emotional depth, with lyrics that delve into themes of love, heartbreak, and personal struggle. R&B songs frequently feature lush harmonies, melodic piano, and silky guitar riffs, all underpinned by a steady, head-nodding rhythm."
+        ],
+        "artists": [
+            {
+                "name": "Giveon",
+                "img": "https://i.scdn.co/image/ab676161000051740219b6643b1ec449b0951bfe",
+                "id": "4fxd5Ee7UefO4CUXgwJ7IP",
+                "content": "is recognized for his deep, velvety baritone that glides over minimalist, atmospheric beats. His music is a fresh take on classic R&B, layering introspective lyrics over slow-burning tracks that resonate with authentic emotion and vulnerability."
+            },
+            {
+                "name": "Cleo Sol",
+                "img": "https://i.scdn.co/image/ab67616100005174e342e7294ed3dc27b167f47d",
+                "id": "3ETLPQkcEd7z4k3IbZmXMq",
+                "content": "is celebrated for her soulful voice and retro-inspired sound that harkens back to the golden age of soul and R&B. Her music is a blend of smooth, jazzy instrumentals and heartfelt lyrics, creating a timeless quality that appeals to fans of both old-school and modern R&B."
+            }
+        ],
+        "tracks": [
+            "2jrXrZdn5PoPsMw9W0T5sn",
+            "58dSdjfEYNSxte1aNVxuNf",
+            "6mqXhNpg539WTUFewKQz62",
+            "0wcN45fKhDGWAd0GrWjdYM",
+            "3PPD1wg591kQnsws16mlkS",
+            "5NijSs5dAwaIybq1GaRTIe"
+        ],
+        "playlist": {
+            "collaborative": false,
+            "description": "𖤐₊࿐ keywords: brent faiyaz, bryson tiller, sza, her, lucky daye, the internet, sir, etc &#x2F;&#x2F; neo-soul,, r&amp;b,, and more!",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/playlist/7yubzVn0vRMHIURJYtJD0M"
+            },
+            "href": "https://api.spotify.com/v1/playlists/7yubzVn0vRMHIURJYtJD0M",
+            "id": "7yubzVn0vRMHIURJYtJD0M",
+            "images": [
+                {
+                    "height": null,
+                    "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebba8d752915e2e13139cd32b64",
+                    "width": null
+                }
+            ],
+            "name": "|| ₊˚.༄ - POT AND R&B!",
+            "owner": {
+                "display_name": "reya💞",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/user/22iorbhsdsvlmmj5xppojftga"
+                },
+                "href": "https://api.spotify.com/v1/users/22iorbhsdsvlmmj5xppojftga",
+                "id": "22iorbhsdsvlmmj5xppojftga",
+                "type": "user",
+                "uri": "spotify:user:22iorbhsdsvlmmj5xppojftga"
+            },
+            "primary_color": null,
+            "public": null,
+            "snapshot_id": "MTAyLGZjNjljMDc2MzIwN2UwMzkxMjE4ZGI0MDY1MjNjNDUwMjhhZTI1ZDg=",
+            "tracks": {
+                "href": "https://api.spotify.com/v1/playlists/7yubzVn0vRMHIURJYtJD0M/tracks",
+                "total": 68
+            },
+            "type": "playlist",
+            "uri": "spotify:playlist:7yubzVn0vRMHIURJYtJD0M"
+        }
     }
 }
