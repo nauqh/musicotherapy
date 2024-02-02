@@ -43,12 +43,14 @@ const Input = () => {
 		);
 		console.log(features);
 		console.log(notes);
-		navigate("/diagnose", {
-			state: {
-				description: notes ? notes : "soft korean pop indie",
-				genre: genre,
-			},
-		});
+		console.log(genre);
+		window.location.href = "https://nauqh.github.io/error";
+		// navigate("/diagnose", {
+		// 	state: {
+		// 		description: notes ? notes : "soft korean pop indie",
+		// 		genre: genre,
+		// 	},
+		// });
 	};
 
 	const handleDiagnoseSelect = (text: string) => {
