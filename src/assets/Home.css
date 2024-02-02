@@ -59,6 +59,7 @@
 
 .home__footer {
 	display: flex;
+	padding: 0 1rem;
 	justify-content: space-between;
 	align-self: flex-end;
 	margin-bottom: 1rem;
