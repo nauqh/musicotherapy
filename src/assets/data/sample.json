@@ -534,5 +534,216 @@
             "type": "playlist",
             "uri": "spotify:playlist:7yubzVn0vRMHIURJYtJD0M"
         }
+    },
+    "Latin Trap Raggaeton": {
+        "genre": "Latin Trap/Reggaeton",
+        "mood": "vibrant - sensual - energetic",
+        "color": "#E65100",
+        "characteristics": [
+            "Your music taste leans a bit towards Latin Trap/Reggaeton, a music style that blends infectious rhythms with gritty trap influences. The genre is known for its use of dembow rhythm, heavy bass, and often includes rap or spoken verses in Spanish.",
+            "Reggaeton typically features catchy, repetitive melodies that make it irresistible for dancing. Latin Trap, on the other hand, often has a darker, moodier sound with deep, resonant basslines and slower tempos, creating a groove that's both seductive and intense."
+        ],
+        "artists": [
+            {
+                "name": "Sech",
+                "img": "https://i.scdn.co/image/ab67616100005174e6399502553c796f40e11017",
+                "id": "77ziqFxp5gaInVrF2lj4ht",
+                "content": "is a Panamanian singer who has made waves in the Latin music scene with his smooth vocals and catchy reggaeton beats. His music often explores themes of love, partying, and the street life, blending melodic hooks with relatable lyrics."
+            },
+            {
+                "name": "Myke Towers",
+                "img": "https://i.scdn.co/image/ab676161000051749e35c3c5de877f99a8f6192f",
+                "id": "7iK8PXO48WeuP03g8YR51W",
+                "content": "is a Puerto Rican artist known for his versatile flow and lyricism, which merges Latin Trap and Reggaeton. His music captures the essence of urban life, combining hard-hitting beats with narratives that reflect the highs and lows of his experiences."
+            }
+        ],
+        "tracks": [
+            "3CIl8hlnMcULSIIhUMmB1Z",
+            "1Azwf82ufiNf6lQAXAty0v",
+            "5O3cRP4ZHC9vvVIHtET1f0",
+            "2PyuytS9WHUXcqzR1lJYV0",
+            "7MkylDYvKTSuWgrsBhHlsG",
+            "3mEuWQDngXevBTZLf48XDx"
+        ],
+        "playlist": {
+            "collaborative": false,
+            "description": "The best of Latin Trap. Cover: Lyanno, Anubiis & Hades66",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/playlist/37i9dQZF1DXde9tuMHuIsj"
+            },
+            "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DXde9tuMHuIsj",
+            "id": "37i9dQZF1DXde9tuMHuIsj",
+            "images": [
+                {
+                    "height": null,
+                    "url": "https://i.scdn.co/image/ab67706f0000000368f36b1a5b4a7ec3e0d3763b",
+                    "width": null
+                }
+            ],
+            "name": "Trap Land",
+            "owner": {
+                "display_name": "Spotify",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/user/spotify"
+                },
+                "href": "https://api.spotify.com/v1/users/spotify",
+                "id": "spotify",
+                "type": "user",
+                "uri": "spotify:user:spotify"
+            },
+            "primary_color": null,
+            "public": null,
+            "snapshot_id": "MTcwNjI0NTIwMCwwMDAwMDAwMGQ0NzM4MGQzZGIzMmNjZTA4NzNlZTk3OTk0MzBkMmFl",
+            "tracks": {
+                "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DXde9tuMHuIsj/tracks",
+                "total": 100
+            },
+            "type": "playlist",
+            "uri": "spotify:playlist:37i9dQZF1DXde9tuMHuIsj"
+        }
+    },
+    "Pop Ballad": {
+        "genre": "Pop Ballad",
+        "mood": "emotional - soulful - intimate",
+        "color": "#9c786c",
+        "characteristics": [
+            "Your music taste leans a bit towards Pop Ballad, a genre that thrives on emotional storytelling and powerful vocal performances. The songs typically feature slow tempos, soft piano or guitar accompaniments, and build to big, dramatic climaxes.",
+            "With an emphasis on romantic, wistful, or nostalgic themes, Pop Ballads often serve as the emotional centerpiece of an artist's repertoire. The lyrics are designed to connect deeply with the listener's own experiences, evoking a sense of shared humanity and vulnerability."
+        ],
+        "artists": [
+            {
+                "name": "Adele",
+                "img": "https://i.scdn.co/image/ab6761610000517468f6e5892075d7f22615bd17",
+                "id": "4dpARuHxo51G3z768sgnrY",
+                "content": "is recognized for her deep, resonant voice and her ability to convey complex emotions through her music. Her ballads often tell stories of love, heartbreak, and redemption, connecting with audiences around the world thanks to her timeless songwriting and soul-stirring performances."
+            },
+            {
+                "name": "Sam Smith",
+                "img": "https://i.scdn.co/image/ab67616100005174a8eef8322e55fc49ab436eea",
+                "id": "2wY79sveU1sp5g7SokKOiI",
+                "content": "is known for their stirring vocal tone and poignant songwriting. Their music often explores themes of love, loss, and longing, delivered with a vulnerability that has resonated with a diverse fanbase. Their ballads are rich with emotional depth and have become anthems for those dealing with the intricacies of personal relationships."
+            }
+        ],
+        "tracks": [
+            "6w8pFOKn42O418qwcQElZ3",
+            "77MdvMx9L4ZQuLhhn3o21h",
+            "23khhseCLQqVMCIT1WMAns",
+            "0NZPBYD5qbEWRs3PrGiRkT",
+            "1lsBTdE6MGsKeZCD6llNu7",
+            "5fSVR4vH1VUUmYq9AnFu4p"
+        ],
+        "playlist": {
+            "collaborative": false,
+            "description": "An easy-listening playlist from our digital consultant’s head. Keywords: Acoustics, Nu-Soul, Soft Pop, R&amp;B, chill beats, etc.",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/playlist/21nC1A3Vp8e4QWMK7Su3B4"
+            },
+            "href": "https://api.spotify.com/v1/playlists/21nC1A3Vp8e4QWMK7Su3B4",
+            "id": "21nC1A3Vp8e4QWMK7Su3B4",
+            "images": [
+                {
+                    "height": 640,
+                    "url": "https://mosaic.scdn.co/640/ab67616d0000b273415785288945d691d0a893b6ab67616d0000b27395998c6ca2c759356eee3c3bab67616d0000b273c820bb3e9df32f2503a5e7caab67616d0000b273ff7664dccb448f7272786b1c",
+                    "width": 640
+                },
+                {
+                    "height": 300,
+                    "url": "https://mosaic.scdn.co/300/ab67616d0000b273415785288945d691d0a893b6ab67616d0000b27395998c6ca2c759356eee3c3bab67616d0000b273c820bb3e9df32f2503a5e7caab67616d0000b273ff7664dccb448f7272786b1c",
+                    "width": 300
+                },
+                {
+                    "height": 60,
+                    "url": "https://mosaic.scdn.co/60/ab67616d0000b273415785288945d691d0a893b6ab67616d0000b27395998c6ca2c759356eee3c3bab67616d0000b273c820bb3e9df32f2503a5e7caab67616d0000b273ff7664dccb448f7272786b1c",
+                    "width": 60
+                }
+            ],
+            "name": "Soleil: Lundi",
+            "owner": {
+                "display_name": "Olen Riyanto",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/user/12171091585"
+                },
+                "href": "https://api.spotify.com/v1/users/12171091585",
+                "id": "12171091585",
+                "type": "user",
+                "uri": "spotify:user:12171091585"
+            },
+            "primary_color": null,
+            "public": null,
+            "snapshot_id": "MTc3LDY0MDg4MDRhYzNlODVkNjIwOTRjZTAwNzlmZDU1YTFhMDkwMzM4MzM=",
+            "tracks": {
+                "href": "https://api.spotify.com/v1/playlists/21nC1A3Vp8e4QWMK7Su3B4/tracks",
+                "total": 71
+            },
+            "type": "playlist",
+            "uri": "spotify:playlist:21nC1A3Vp8e4QWMK7Su3B4"
+        }
+    },
+    "Classical": {
+        "genre": "Classical",
+        "mood": "elegant - timeless - sophisticated",
+        "color": "#f7dc6f",
+        "characteristics": [
+            "Your music taste leans a bit towards Classical, which is steeped in a rich heritage of orchestral and operatic traditions. This genre is known for its complex compositions, often weaving intricate melodies and harmonies through a full range of orchestral instruments.",
+            "Classical music is largely instrumental and can be both grand and intimate, transporting listeners through a spectrum of emotions. From the dramatic crescendos of a symphony to the delicate subtlety of a solo piano piece, the genre offers an unparalleled depth of expression and technical mastery."
+        ],
+        "artists": [
+            {
+                "name": "Sheku Kanneh-Mason",
+                "img": "https://i.scdn.co/image/ab6761610000517495b7e039c00b43cc7c0c364f",
+                "id": "6OTr0YwLwGdv7mlmX27hRX",
+                "content": "is a celebrated cellist who has captivated audiences with his expressive performances and exceptional musicality. His repertoire spans from baroque to contemporary, and his ability to communicate the nuanced emotions of classical compositions has earned him international acclaim."
+            },
+            {
+                "name": "Hilary Hahn",
+                "img": "https://i.scdn.co/image/ab6761610000517435f3c2e54e1a83659203b437",
+                "id": "5JdT0LYJdlPbTC58p60WTX",
+                "content": "is a virtuoso violinist known for her brilliant technique and profound interpretations of classical works. Her performances are characterized by a remarkable precision and clarity, along with a deep understanding of the intricate language of classical music."
+            }
+        ],
+        "tracks": [
+            "577QmKtVNwqjIQbmLMR5hv",
+            "3Skb5tgiaToqEg5RdDcflG",
+            "3IdW6st6jx43pE391FgW9A",
+            "1t5Ffg3mJHeJP0bPkljCdk",
+            "6xhVf7SgpsCDV0im95XTe3",
+            "0cSaAscEx6Ei4XPupVvdy5"
+        ],
+        "playlist": {
+            "collaborative": false,
+            "description": "Relaxing classical piano.",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/playlist/37i9dQZF1DWUqIzZNMSCv3"
+            },
+            "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWUqIzZNMSCv3",
+            "id": "37i9dQZF1DWUqIzZNMSCv3",
+            "images": [
+                {
+                    "height": null,
+                    "url": "https://i.scdn.co/image/ab67706f0000000395e6e1249f3389ee0547a82d",
+                    "width": null
+                }
+            ],
+            "name": "Classical Piano",
+            "owner": {
+                "display_name": "Spotify",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/user/spotify"
+                },
+                "href": "https://api.spotify.com/v1/users/spotify",
+                "id": "spotify",
+                "type": "user",
+                "uri": "spotify:user:spotify"
+            },
+            "primary_color": null,
+            "public": null,
+            "snapshot_id": "MTcwNjgwNjA1NCwwMDAwMDAwMDg0ZGFjZWMzZTlhNmE0Y2M1NjkyYTk2Y2NlYWJkZjY5",
+            "tracks": {
+                "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWUqIzZNMSCv3/tracks",
+                "total": 67
+            },
+            "type": "playlist",
+            "uri": "spotify:playlist:37i9dQZF1DWUqIzZNMSCv3"
+        }
     }
 }

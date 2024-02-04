@@ -21,6 +21,7 @@ const GenreGrid: React.FC<GenreGridProps> = ({
 			>
 				Korean Soft Indie
 			</div>
+
 			<div
 				className="button-brick"
 				onClick={() => handleDiagnoseSelect("R&B")}
@@ -39,6 +40,7 @@ const GenreGrid: React.FC<GenreGridProps> = ({
 			>
 				Rap Hip-hop
 			</div>
+
 			<div
 				className="button-brick grid-2"
 				onClick={() => handleDiagnoseSelect("Disney Soundtracks")}
@@ -56,6 +58,25 @@ const GenreGrid: React.FC<GenreGridProps> = ({
 				onClick={() => handleDiagnoseSelect("Mandopop")}
 			>
 				Mandopop
+			</div>
+
+			<div
+				className="button-brick"
+				onClick={() => handleDiagnoseSelect("Disney Soundtracks")}
+			>
+				Classical
+			</div>
+			<div
+				className="button-brick grid-2"
+				onClick={() => handleDiagnoseSelect("Disney Soundtracks")}
+			>
+				Latin trap / Reggaeton
+			</div>
+			<div
+				className="button-brick"
+				onClick={() => handleDiagnoseSelect("Disney Soundtracks")}
+			>
+				Pop Ballad
 			</div>
 		</div>
 	);
