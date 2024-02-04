@@ -78,12 +78,12 @@
 	}
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 700px) {
 	.playlist__container {
-		width: 970px;
+		width: 700px;
 	}
 
 	.playlist__container iframe {
-		width: 40%;
+		width: 90%;
 	}
 }
