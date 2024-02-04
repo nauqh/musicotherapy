@@ -31,7 +31,7 @@ const Home = () => {
 						<h1 className="home__title">How sick is your music?</h1>
 						<p className="home__description">
 							Our sophisticated AI diagnoses and prescribes
-							awesome remedies for that aweful music taste of
+							awesome remedies for that awful music taste of
 							yours.
 						</p>
 
