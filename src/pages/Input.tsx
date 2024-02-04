@@ -7,6 +7,7 @@ import TextInput from "../components/TextInput/TextInput";
 import Features from "../assets/data/features.json";
 import Slider from "../components/Slider/Slider";
 import WorkFilter from "../components/Filter/WorkFilter";
+import GenreGrid from "../components/GenreGrid";
 
 type FilterKey = "Upbeat" | "Ambient" | "Anxious" | "Inspiring";
 
@@ -80,62 +81,7 @@ const Input = () => {
 				>
 					Pick a genre from our popular diagnoses
 				</h1>
-				<div className="container-grid">
-					<div
-						className="button-brick"
-						onClick={() => handleDiagnoseSelect("Pop Punk")}
-					>
-						Pop Punk
-					</div>
-					<div
-						className="button-brick grid-3"
-						onClick={() =>
-							handleDiagnoseSelect("Korean Soft Indie")
-						}
-					>
-						Korean Soft Indie
-					</div>
-
-					<div
-						className="button-brick"
-						onClick={() => handleDiagnoseSelect("R&B")}
-					>
-						R&B
-					</div>
-					<div
-						className="button-brick"
-						onClick={() => handleDiagnoseSelect("Lo-fi")}
-					>
-						Lo-fi
-					</div>
-					<div
-						className="button-brick grid-2"
-						onClick={() => handleDiagnoseSelect("Rap Hip-hop")}
-					>
-						Rap Hip-hop
-					</div>
-
-					<div
-						className="button-brick grid-2"
-						onClick={() =>
-							handleDiagnoseSelect("Disney Soundtracks")
-						}
-					>
-						Disney Soundtracks
-					</div>
-					<div
-						className="button-brick"
-						onClick={() => handleDiagnoseSelect("EDM")}
-					>
-						EDM
-					</div>
-					<div
-						className="button-brick"
-						onClick={() => handleDiagnoseSelect("Mandopop")}
-					>
-						Mandopop
-					</div>
-				</div>
+				<GenreGrid onDiagnoseSelect={handleDiagnoseSelect} />
 			</section>
 
 			<section className="container">
