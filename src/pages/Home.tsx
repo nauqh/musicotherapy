@@ -58,7 +58,7 @@ const Home = () => {
 										type="text"
 										id="lname"
 										name="lname"
-										defaultValue="Insert Spotify playlist link here"
+										placeholder="Insert Spotify playlist link here"
 										onChange={(e) =>
 											setPlaylistLink(e.target.value)
 										}
