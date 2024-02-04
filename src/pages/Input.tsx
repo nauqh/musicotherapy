@@ -8,6 +8,7 @@ import Features from "../assets/data/features.json";
 import Slider from "../components/Slider/Slider";
 import WorkFilter from "../components/Filter/WorkFilter";
 import GenreGrid from "../components/GenreGrid";
+import SelectBox from "../components/SelectBox/SelectBox";
 
 type FilterKey = "Upbeat" | "Ambient" | "Anxious" | "Inspiring";
 
@@ -23,6 +24,7 @@ const Input = () => {
 	});
 	const [notes, setNotes] = useState("");
 	const [genre, setGenre] = useState<FilterKey>();
+	const [_, setSelectedOption] = useState("");
 
 	const handleFilterChange = (filter: FilterKey) => {
 		setSliderValues(Features[filter]);
@@ -148,6 +150,13 @@ const Input = () => {
 						handleSliderChange("Valence", value)
 					}
 					value={sliderValues.Valence}
+				/>
+				<SelectBox
+					label="Choose an option:"
+					options={["Option 1", "Option 2", "Option 3", "Option 4"]}
+					onChange={(selectedOption) => {
+						setSelectedOption(selectedOption);
+					}}
 				/>
 				<TextInput
 					label="Notes"
