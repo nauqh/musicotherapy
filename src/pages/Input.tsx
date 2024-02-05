@@ -152,7 +152,8 @@ const Input = () => {
 					value={sliderValues.Valence}
 				/>
 				<SelectBox
-					label="Choose an option:"
+					labell="Choose an option:"
+					labelr="Year range"
 					options={["Option 1", "Option 2", "Option 3", "Option 4"]}
 					onChange={(selectedOption) => {
 						setSelectedOption(selectedOption);
