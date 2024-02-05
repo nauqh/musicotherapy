@@ -38,7 +38,7 @@ const SelectBox: React.FC<SelectBoxProps> = ({
 	};
 
 	const validateYearRange = (start: string, end: string) => {
-		if (start && end && parseInt(start) > parseInt(end)) {
+		if (parseInt(start) > parseInt(end)) {
 			setError("Year range is invalid");
 		} else {
 			setError("");
