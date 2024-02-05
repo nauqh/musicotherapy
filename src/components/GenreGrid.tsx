@@ -62,19 +62,19 @@ const GenreGrid: React.FC<GenreGridProps> = ({
 
 			<div
 				className="button-brick"
-				onClick={() => handleDiagnoseSelect("Disney Soundtracks")}
+				onClick={() => handleDiagnoseSelect("Classical")}
 			>
 				Classical
 			</div>
 			<div
 				className="button-brick grid-2"
-				onClick={() => handleDiagnoseSelect("Disney Soundtracks")}
+				onClick={() => handleDiagnoseSelect("Latin Trap Reggaeton")}
 			>
 				Latin trap / Reggaeton
 			</div>
 			<div
 				className="button-brick"
-				onClick={() => handleDiagnoseSelect("Disney Soundtracks")}
+				onClick={() => handleDiagnoseSelect("Pop Ballad")}
 			>
 				Pop Ballad
 			</div>
