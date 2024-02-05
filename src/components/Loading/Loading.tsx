@@ -57,7 +57,7 @@ const Loading: React.FC = () => {
 					marginTop: "1rem",
 				}}
 			>
-				&gt; Applying gpt-4-turbo with data up to Apr 2023...
+				&gt; Applying gpt-4-turbo model...
 			</motion.h1>
 			<motion.h1
 				initial={{ opacity: 0 }}
@@ -69,7 +69,7 @@ const Loading: React.FC = () => {
 					marginTop: "1rem",
 				}}
 			>
-				&gt; Training on 128,000 tokens of objectively good music...
+				&gt; Training on 128,000 tokens of awful music taste...
 			</motion.h1>
 			<motion.h1
 				initial={{ opacity: 0 }}
@@ -81,7 +81,7 @@ const Loading: React.FC = () => {
 					marginTop: "1rem",
 				}}
 			>
-				&gt; Finalizing results...
+				&gt; Finalizing your kind of sickness...
 			</motion.h1>
 			<motion.h1
 				initial={{ opacity: 0 }}
@@ -94,8 +94,7 @@ const Loading: React.FC = () => {
 					marginTop: "2rem",
 				}}
 			>
-				Based on your listening habits, we can tell your kind of
-				sickness are
+				Based on your listening habits, we can tell you are feeling
 				<div className="loading__dots">
 					<span className="loading__dot"></span>
 					<span className="loading__dot"></span>

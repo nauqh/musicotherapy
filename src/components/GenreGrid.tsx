@@ -68,7 +68,7 @@ const GenreGrid: React.FC<GenreGridProps> = ({
 			</div>
 			<div
 				className="button-brick grid-2"
-				onClick={() => handleDiagnoseSelect("Latin Trap Reggaeton")}
+				onClick={() => handleDiagnoseSelect("Latin Trap Raggaeton")}
 			>
 				Latin trap / Reggaeton
 			</div>

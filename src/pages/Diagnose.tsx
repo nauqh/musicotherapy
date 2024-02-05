@@ -55,7 +55,7 @@ const Diagnose = () => {
 						<motion.img
 							initial={{ opacity: 0 }}
 							animate={{ opacity: 1 }}
-							transition={{ duration: 1, delay: 1.5 }}
+							transition={{ duration: 1, delay: 2 }}
 							style={{
 								margin: "auto",
 							}}

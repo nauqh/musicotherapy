@@ -82,8 +82,4 @@
 	.playlist__container {
 		width: 700px;
 	}
-
-	.playlist__container iframe {
-		width: 90%;
-	}
 }
