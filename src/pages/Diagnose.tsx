@@ -155,14 +155,15 @@ const Diagnose = () => {
 								</p>
 								<br />
 								<p className="footer__content">
-									Designed and developed by{" "}
+									Further explore your music taste with
+									Musicotherapy's overtime service,{" "}
 									<a
-										href="https://github.com/nauqh"
+										href="https://resonance.streamlit.app/"
 										style={{ textDecoration: "underline" }}
 									>
-										Nauqh
-									</a>{" "}
-									and team.
+										Resonance
+									</a>
+									.
 								</p>
 								<br />
 								<p className="footer__content">
