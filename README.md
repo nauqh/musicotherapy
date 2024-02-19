@@ -1,11 +1,10 @@
 # Musicotherapy - A clinic for awful music taste
+![Version](https://img.shields.io/badge/Latest_Version-V1.0.0-808080?style=for-the-badge)
+![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
 
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=white&colorB=0096c7)
 ![Chakra](https://img.shields.io/badge/chakra-%234ED1C5.svg?style=for-the-badge&logo=chakraui&logoColor=white)
-
-![Version](https://img.shields.io/badge/Latest_Version-V1.0.0-808080?style=for-the-badge)
-![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
 
 ## Landing page
 The frontend architecture is developed using **Typescript** with **React** framework. Users have the option to personalize their music preferences, explore predefined music characteristics offered by the engine, or even integrate their Spotify playlists for enhanced music recommendations. 
