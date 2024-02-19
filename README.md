@@ -21,7 +21,7 @@ Initially, users are presented with a variety of audio feature scales and option
 
 ## Result page
 
-The in-depth analysis of use music taste is displayed together with recommendation of the artists that well-presnted the music characteristics.
+An in-depth analysis of use music taste is displayed together with recommendation of artists that well-presented the music characteristics.
 <div style="display: flex;">
   <img width="400" src="./public/recs1.png" style="margin-right: 10px;">
   <img width="400" src="./public/recs2.png">
