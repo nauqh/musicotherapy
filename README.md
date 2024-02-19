@@ -29,6 +29,6 @@ The in-depth analysis of use music taste is displayed together with recommendati
 
 The engine also generates tracks recommendation together with a Spotify playlist tailor for user music preferences.
 <div style="display: flex;">
-  <img width="400" src="./public/recs3.png" style="margin-right: 10px;">
-  <img width="400" src="./public/recs4.png">
+  <img width="400" src="./public/recs4.png" style="margin-right: 10px;">
+  <img width="400" src="./public/recs3.png">
 </div>
