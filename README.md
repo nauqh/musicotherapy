@@ -4,6 +4,8 @@
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=white&colorB=0096c7)
 ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
 
+![Version](https://img.shields.io/badge/Latest_Version-V1.0.0-808080?style=for-the-badge)
+
 ## Landing page
 The frontend architecture is developed using **Typescript** with **React** framework. Initially, users are presented with a variety of audio feature scales and options to customize their music preferences. Subsequently, upon user action, relevant user data is transmitted to the recommendation engine and the returned results are displayed on user interface.
 
