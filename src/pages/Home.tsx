@@ -18,9 +18,13 @@ const Home = () => {
 	}, []);
 
 	const handleButtonClick = () => {
-		navigate("/input", {
-			state: { link: playlistLink },
-		});
+		if (playlistLink.startsWith("https://")) {
+			window.location.href = "https://resonance.streamlit.app/";
+		} else {
+			navigate("/input", {
+				state: { link: playlistLink },
+			});
+		}
 	};
 
 	return (
@@ -40,7 +44,7 @@ const Home = () => {
 								Find out
 							</div>
 							<a
-								href="https://github.com/nauqh/Resonance"
+								href="https://github.com/nauqh/resonance"
 								target="_blank"
 								className="button button-alter"
 							>
